@@ -12,6 +12,8 @@ import Eureka
 
 class SeparatorTableViewCell: UITableViewCell {
     
+    static let sepaIdentifier = "SeparatorTableViewCell"
+    
     enum SeperatorStyle {
         case hidden
         case padding(CGFloat)

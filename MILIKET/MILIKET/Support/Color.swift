@@ -231,11 +231,11 @@ extension UIColor {
      */
     struct Text {
         
-        static var blackNormal = IColor.black
+        static var blackNormal = UIColor.black
         
-        static var whiteNormal = IColor.white
+        static var whiteNormal = UIColor.white
         
-        static var grayNormal = IColor(rgba: "6E6E6E")
+        static var grayNormal = UIColor(rgba: "6E6E6E")
         
         static var blackMedium = UIColor.black.alpha(0.8)
         
@@ -270,7 +270,7 @@ extension UIColor {
     }
     
     struct Popup {
-        static var highlightText = IColor(rgba: "F59425")
+        static var highlightText = UIColor(rgba: "F59425")
         
         static var normalText = UIColor.white
     }

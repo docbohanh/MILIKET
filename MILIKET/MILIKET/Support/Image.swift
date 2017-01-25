@@ -97,39 +97,39 @@ struct Icon {
         static var empty = UIImage(named: "empty")!
         static var arrow = UIImage(named: "Arrow")!
         static var map   = UIImage(named: "trackingMap")!
-        static var start = UIImage(named: "Start")!
-        static var stop  = UIImage(named: "Stop")!
-        static var end   = UIImage(named: "End")!
         static var car   = UIImage(named: "Car")!
         
         static var avatar   = UIImage(named: "avatar")!
         
-        static var Start: UIImage { return UIImage(named: "Start")! }
+        static var start = UIImage(named: "Start")!
         
-        static var End: UIImage { return UIImage(named: "End")! }
+        static var end = UIImage(named: "End")!
         
-        static var Arrow: UIImage { return UIImage(named: "Arrow")! }
+        static var stop = UIImage(named: "Stop")!
         
-        static var Stop: UIImage { return UIImage(named: "Stop")! }
+        static var distance = UIImage(named: "Distance")!
         
-        static var Distance: UIImage { return UIImage(named: "Distance")! }
+        static var lostGPS = UIImage(named: "LostGPS")!
         
-        static var LostGPS: UIImage { return UIImage(named: "LostGPS")! }
+        static var receivedGPS = UIImage(named: "ReceivedGPS")!
         
-        static var ReceivedGPS: UIImage { return UIImage(named: "ReceivedGPS")! }
+        static var lostGSM = UIImage(named: "LostGSM")!
         
-        static var LostGSM: UIImage { return UIImage(named: "LostGSM")! }
+        static var receivedGSM = UIImage(named: "ReceivedGSM")!
         
-        static var ReceivedGSM: UIImage { return UIImage(named: "ReceivedGSM")! }
+        static var play = UIImage(named: "Play")!
         
-        static var Play: UIImage { return UIImage(named: "Play")! }
+        static var pause = UIImage(named: "Pause")!
         
-        static var Pause: UIImage { return UIImage(named: "Pause")! }
+        static var trackingCar = UIImage(named: "TrackingCar")!
         
-        static var TrackingCar: UIImage { return UIImage(named: "TrackingCar")! }
-        
-        static var ArrowRight: UIImage { return UIImage(named: "Tracking_ArrowRight")! }
+        static var arrowRight = UIImage(named: "Tracking_ArrowRight")!
     }
     
+    struct Help {
+        static var Terms: UIImage { return UIImage(named: "Terms")! }
+        
+        static var Tracking: UIImage { return UIImage(named: "Help_Tracking")! }
+    }
 
 }

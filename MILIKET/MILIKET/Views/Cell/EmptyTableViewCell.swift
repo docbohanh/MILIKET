@@ -11,6 +11,8 @@ import UIKit
 import PHExtensions
 
 class EmptyTableViewCell: UITableViewCell {
+        
+    static let emptyIdentifier = "EmptyTableViewCell"
     
     private enum Size: CGFloat {
         case padding15 = 15, image = 70, label = 60

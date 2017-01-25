@@ -33,3 +33,10 @@ enum FontType: String {
 enum AppNotification: String {
     case SaveTrackingSignal = "save_tracking"
 }
+
+
+
+enum LanguageValue: Int {
+    case vietnamese = 0
+    case english    = 1
+}

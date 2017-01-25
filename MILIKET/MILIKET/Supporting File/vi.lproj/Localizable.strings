@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  MILIKET
+
+  Created by Thành Lã on 1/25/17.
+  Copyright © 2017 Thành Lã. All rights reserved.
+*/
+
+/*!============================================
+ * MARK:           - HELP
+ * ============================================*/
+
+"terms_title" = "Điều khoản sử dụng";
+
+"help_view_tracking" = "Xem lộ trình";
+
+/*! ===========================================
+ *  MARK:           - IMAGE
+ * ============================================*/
+
+"help_image_booking_1" =  "basao_booking_help_image_1_vn";
+"help_image_booking_2" =  "basao_booking_help_image_2_vn";
+"help_image_booking_3" =  "basao_booking_help_image_3_vn";
+"help_image_booking_4" =  "basao_booking_help_image_4_vn";
+"help_image_booking_5" =  "basao_booking_help_image_5_vn";

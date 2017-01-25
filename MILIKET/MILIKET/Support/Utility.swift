@@ -26,16 +26,7 @@ public func delay(_ delay: Double, closure:@escaping () -> () ) {
 struct Utility {
     static let shared = Utility()
     
-    func getTrackingData(from tracking: Tracking) -> HTTPVehicleTrip.ResponseType {
         
-        return HTTPVehicleTrip.ResponseType(totalDistance: tracking.totalDistance,
-                                            rawPath: tracking.rawPath,
-                                            stopPoints: [],
-                                            gsmPoints: [],
-                                            velocityPoints: tracking.velocityPoints.flatMap { Int($0.velocity) },
-                                            timePoints: tracking.times)
-    }
-    
     /**
      Tính chiều rộng của text
      */
