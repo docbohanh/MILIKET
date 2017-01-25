@@ -227,6 +227,7 @@ extension HelpDetailsViewController {
 //-------------------------------------
 extension HelpDetailsViewController {
     func setupAllSubviews() {
+        view.backgroundColor = .white
         
         setupPageView()
         setupButton()
