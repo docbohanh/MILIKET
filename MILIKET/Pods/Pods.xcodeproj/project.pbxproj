@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17D5985AE7B3A21BE891802A24B9216C /* Pods-MILIKETUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC8B94AE109DB86202CA2A8446A259C /* Pods-MILIKETUITests-dummy.m */; };
+		2E1BB5C1A08D951F770255D654CF0525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		34CE09D5E6DC6AF6C21C82AA3C64C6DF /* Pods-MILIKET-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCF8ECD8B93E3E7235B6C0AD9C54B5A /* Pods-MILIKET-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4018C1746284F6262411EC1EE8F9FC26 /* Pods-MILIKETUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 127999DB403F57B18DD7B8106323E95B /* Pods-MILIKETUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6328C40F65F873A05E028376343867CB /* Pods-MILIKETTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A25AA8934A7498C2560C2C92C7D21E02 /* Pods-MILIKETTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B83D1941EA7A96AFE2B045A8D610376 /* Pods-MILIKET-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB890825739BA8A8347F8AB32E700D1 /* Pods-MILIKET-dummy.m */; };
+		8E2F68159D2A4AD341CC4686829C0619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C5D684A6622D64BADDFA5CFACFE84EC9 /* Pods-MILIKETTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA70D7024C66D8E7EB3AEC31B9B77E4 /* Pods-MILIKETTests-dummy.m */; };
+		FB90CB468ABBD0B835FD2B165FCCA456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0225388347389797683A1F4A74ED789A /* Pods_MILIKET.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MILIKET.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E2054D8344CFBB3A78253D9F201FF2 /* Pods_MILIKETTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MILIKETTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0717A53FA3146A1C539652799CFFFCB1 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		0DE100E9CBBB31AC63FDC6D23DDE8548 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127999DB403F57B18DD7B8106323E95B /* Pods-MILIKETUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MILIKETUITests-umbrella.h"; sourceTree = "<group>"; };
+		2208495A3FCD23913B87D029910AE715 /* Pods-MILIKETUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MILIKETUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26176370B60D8E4B29E18A24C6F08A33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA79268F5604ABD81CD8E7AE32CC668 /* Pods-MILIKETTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MILIKETTests.modulemap"; sourceTree = "<group>"; };
+		37F7EE5DDB361E2C24B0F8EF690693EF /* Pods-MILIKETTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MILIKETTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C897692601135800FCD2B061D44B3AB /* Pods-MILIKETTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKETTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CAAE47AB97055A9FBB1B0273F37A423 /* Pods_MILIKETUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MILIKETUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D97800603A3260286DC79D2C8D80768 /* Pods-MILIKETUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKETUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4DB890825739BA8A8347F8AB32E700D1 /* Pods-MILIKET-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MILIKET-dummy.m"; sourceTree = "<group>"; };
+		5010B23513EE32E3BFA48E9CC2A3D876 /* Pods-MILIKET.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MILIKET.modulemap"; sourceTree = "<group>"; };
+		5C919250C18DFDC07959EFF1120B49C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660455AF5982365C8722D95592C965C8 /* Pods-MILIKET-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKET-resources.sh"; sourceTree = "<group>"; };
+		6D011F7820CE5A94F4E0BD9293840410 /* Pods-MILIKETTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKETTests-resources.sh"; sourceTree = "<group>"; };
+		76CF5E50277EB1E426C0A0D2150445C0 /* Pods-MILIKETUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKETUITests-resources.sh"; sourceTree = "<group>"; };
+		7810567EB334023163A96C3A7110BA5F /* Pods-MILIKETTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKETTests-frameworks.sh"; sourceTree = "<group>"; };
+		7A96742FFAC6754BBC1ABD7D4638EAF1 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Subspecs/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		804B38BFCFC3CA74EC69B5E0EACBBA54 /* Pods-MILIKETUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MILIKETUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		86DE9D6A5DBB60A054DFF0EEA2251550 /* Pods-MILIKET-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKET-frameworks.sh"; sourceTree = "<group>"; };
+		8AD4E6DF25F9AECD97CA1FD69B62AFB4 /* Pods-MILIKETUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MILIKETUITests.modulemap"; sourceTree = "<group>"; };
+		8CCF8ECD8B93E3E7235B6C0AD9C54B5A /* Pods-MILIKET-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MILIKET-umbrella.h"; sourceTree = "<group>"; };
+		91A0524DD42F3217CA5895BBC4365C4E /* Pods-MILIKETUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKETUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BC0EEC24B7854CA83D1BB6A57028B31 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Subspecs/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		A25AA8934A7498C2560C2C92C7D21E02 /* Pods-MILIKETTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MILIKETTests-umbrella.h"; sourceTree = "<group>"; };
+		ABDF77B01D8EB3F3B0B684E5A6AAB769 /* Pods-MILIKET.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKET.release.xcconfig"; sourceTree = "<group>"; };
+		B4B450F53DC3DCE3BFF19E6D9781AC71 /* Pods-MILIKET-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MILIKET-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA7BCF5A9E796E955637CE3E47AA2D1F /* Pods-MILIKET-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MILIKET-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEC993795583B87B1EC31F69AA6F331A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Subspecs/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		C96141F57DFFF01D4222E0FC16D94E10 /* Pods-MILIKET.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKET.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCA70D7024C66D8E7EB3AEC31B9B77E4 /* Pods-MILIKETTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MILIKETTests-dummy.m"; sourceTree = "<group>"; };
+		DEC8B94AE109DB86202CA2A8446A259C /* Pods-MILIKETUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MILIKETUITests-dummy.m"; sourceTree = "<group>"; };
+		E572D43D7B136068A6FDC030046171EF /* Pods-MILIKETUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKETUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8C557A072EDCFACF38FA74E289345D7 /* Pods-MILIKETTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MILIKETTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEC74EFB3EB9E0BF64948D93DBDC5841 /* Pods-MILIKETTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKETTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43CE9FE43E949DF3A11A993F2BB7E135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB90CB468ABBD0B835FD2B165FCCA456 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F33C2556D5B1FE762A30774C174714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1BB5C1A08D951F770255D654CF0525 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2148433A7F0A5BB6E60F31E3A1895F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2F68159D2A4AD341CC4686829C0619 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03853DF8004FCD538DE122EB2387F73D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A96742FFAC6754BBC1ABD7D4638EAF1 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1418B056D31B27EE2CEBA552B5ADFE56 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				03853DF8004FCD538DE122EB2387F73D /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				1418B056D31B27EE2CEBA552B5ADFE56 /* Base */,
+				6BC99F081C91F80679CFA5DDC6213D57 /* Maps */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		2B7FE4790CF8645329C68766B569D79B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4559C7A5FE1F13647428082E93E33511 /* Pods-MILIKET */,
+				8962943F1E0CB0064A20E08875D98311 /* Pods-MILIKETTests */,
+				A0CEC6E7A82D8DC06BACEA237E38AAD2 /* Pods-MILIKETUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3AEC177709F5E2CA8647760385A95C03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0717A53FA3146A1C539652799CFFFCB1 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B49FF2723CE7D3D8626CA68BCED1785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0225388347389797683A1F4A74ED789A /* Pods_MILIKET.framework */,
+				04E2054D8344CFBB3A78253D9F201FF2 /* Pods_MILIKETTests.framework */,
+				4CAAE47AB97055A9FBB1B0273F37A423 /* Pods_MILIKETUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4559C7A5FE1F13647428082E93E33511 /* Pods-MILIKET */ = {
+			isa = PBXGroup;
+			children = (
+				0DE100E9CBBB31AC63FDC6D23DDE8548 /* Info.plist */,
+				5010B23513EE32E3BFA48E9CC2A3D876 /* Pods-MILIKET.modulemap */,
+				BA7BCF5A9E796E955637CE3E47AA2D1F /* Pods-MILIKET-acknowledgements.markdown */,
+				B4B450F53DC3DCE3BFF19E6D9781AC71 /* Pods-MILIKET-acknowledgements.plist */,
+				4DB890825739BA8A8347F8AB32E700D1 /* Pods-MILIKET-dummy.m */,
+				86DE9D6A5DBB60A054DFF0EEA2251550 /* Pods-MILIKET-frameworks.sh */,
+				660455AF5982365C8722D95592C965C8 /* Pods-MILIKET-resources.sh */,
+				8CCF8ECD8B93E3E7235B6C0AD9C54B5A /* Pods-MILIKET-umbrella.h */,
+				C96141F57DFFF01D4222E0FC16D94E10 /* Pods-MILIKET.debug.xcconfig */,
+				ABDF77B01D8EB3F3B0B684E5A6AAB769 /* Pods-MILIKET.release.xcconfig */,
+			);
+			name = "Pods-MILIKET";
+			path = "Target Support Files/Pods-MILIKET";
+			sourceTree = "<group>";
+		};
+		6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BC99F081C91F80679CFA5DDC6213D57 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				8B88C91FA4176430C15D1E9BF028871B /* Frameworks */,
+				3AEC177709F5E2CA8647760385A95C03 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */,
+				3B49FF2723CE7D3D8626CA68BCED1785 /* Products */,
+				2B7FE4790CF8645329C68766B569D79B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8962943F1E0CB0064A20E08875D98311 /* Pods-MILIKETTests */ = {
+			isa = PBXGroup;
+			children = (
+				26176370B60D8E4B29E18A24C6F08A33 /* Info.plist */,
+				2BA79268F5604ABD81CD8E7AE32CC668 /* Pods-MILIKETTests.modulemap */,
+				37F7EE5DDB361E2C24B0F8EF690693EF /* Pods-MILIKETTests-acknowledgements.markdown */,
+				E8C557A072EDCFACF38FA74E289345D7 /* Pods-MILIKETTests-acknowledgements.plist */,
+				CCA70D7024C66D8E7EB3AEC31B9B77E4 /* Pods-MILIKETTests-dummy.m */,
+				7810567EB334023163A96C3A7110BA5F /* Pods-MILIKETTests-frameworks.sh */,
+				6D011F7820CE5A94F4E0BD9293840410 /* Pods-MILIKETTests-resources.sh */,
+				A25AA8934A7498C2560C2C92C7D21E02 /* Pods-MILIKETTests-umbrella.h */,
+				4C897692601135800FCD2B061D44B3AB /* Pods-MILIKETTests.debug.xcconfig */,
+				EEC74EFB3EB9E0BF64948D93DBDC5841 /* Pods-MILIKETTests.release.xcconfig */,
+			);
+			name = "Pods-MILIKETTests";
+			path = "Target Support Files/Pods-MILIKETTests";
+			sourceTree = "<group>";
+		};
+		8B88C91FA4176430C15D1E9BF028871B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BC0EEC24B7854CA83D1BB6A57028B31 /* GoogleMaps.framework */,
+				BEC993795583B87B1EC31F69AA6F331A /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0CEC6E7A82D8DC06BACEA237E38AAD2 /* Pods-MILIKETUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C919250C18DFDC07959EFF1120B49C9 /* Info.plist */,
+				8AD4E6DF25F9AECD97CA1FD69B62AFB4 /* Pods-MILIKETUITests.modulemap */,
+				2208495A3FCD23913B87D029910AE715 /* Pods-MILIKETUITests-acknowledgements.markdown */,
+				804B38BFCFC3CA74EC69B5E0EACBBA54 /* Pods-MILIKETUITests-acknowledgements.plist */,
+				DEC8B94AE109DB86202CA2A8446A259C /* Pods-MILIKETUITests-dummy.m */,
+				4D97800603A3260286DC79D2C8D80768 /* Pods-MILIKETUITests-frameworks.sh */,
+				76CF5E50277EB1E426C0A0D2150445C0 /* Pods-MILIKETUITests-resources.sh */,
+				127999DB403F57B18DD7B8106323E95B /* Pods-MILIKETUITests-umbrella.h */,
+				91A0524DD42F3217CA5895BBC4365C4E /* Pods-MILIKETUITests.debug.xcconfig */,
+				E572D43D7B136068A6FDC030046171EF /* Pods-MILIKETUITests.release.xcconfig */,
+			);
+			name = "Pods-MILIKETUITests";
+			path = "Target Support Files/Pods-MILIKETUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		220E8C7BF5B8B35462604840EDB9C698 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4018C1746284F6262411EC1EE8F9FC26 /* Pods-MILIKETUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34F2B0E93B17ACBEC89A50FB8343293 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6328C40F65F873A05E028376343867CB /* Pods-MILIKETTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D106E2C2F98FE7B1171071A86DC1F074 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CE09D5E6DC6AF6C21C82AA3C64C6DF /* Pods-MILIKET-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1234D65C10E8134E15204C900EC14CE8 /* Pods-MILIKET */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CE85110C83833A0AFF0BA1C23C9AC3 /* Build configuration list for PBXNativeTarget "Pods-MILIKET" */;
+			buildPhases = (
+				260D98A0C7F635975ED26F282391F257 /* Sources */,
+				43CE9FE43E949DF3A11A993F2BB7E135 /* Frameworks */,
+				D106E2C2F98FE7B1171071A86DC1F074 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MILIKET";
+			productName = "Pods-MILIKET";
+			productReference = 0225388347389797683A1F4A74ED789A /* Pods_MILIKET.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EB3DD526945A0F66D5F142BD0F33B8F /* Pods-MILIKETTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877DBAF9D6D33DAD6CE0118DC2D958C1 /* Build configuration list for PBXNativeTarget "Pods-MILIKETTests" */;
+			buildPhases = (
+				9E59E6DE45EF473E26D797257007B3E1 /* Sources */,
+				D2148433A7F0A5BB6E60F31E3A1895F1 /* Frameworks */,
+				A34F2B0E93B17ACBEC89A50FB8343293 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MILIKETTests";
+			productName = "Pods-MILIKETTests";
+			productReference = 04E2054D8344CFBB3A78253D9F201FF2 /* Pods_MILIKETTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA43250389175405A1665315540EB871 /* Pods-MILIKETUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CEC002200959CB15BAB0A11F762D16 /* Build configuration list for PBXNativeTarget "Pods-MILIKETUITests" */;
+			buildPhases = (
+				06CA2C59949F64F4953AB2A389E878AF /* Sources */,
+				63F33C2556D5B1FE762A30774C174714 /* Frameworks */,
+				220E8C7BF5B8B35462604840EDB9C698 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MILIKETUITests";
+			productName = "Pods-MILIKETUITests";
+			productReference = 4CAAE47AB97055A9FBB1B0273F37A423 /* Pods_MILIKETUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3B49FF2723CE7D3D8626CA68BCED1785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1234D65C10E8134E15204C900EC14CE8 /* Pods-MILIKET */,
+				3EB3DD526945A0F66D5F142BD0F33B8F /* Pods-MILIKETTests */,
+				AA43250389175405A1665315540EB871 /* Pods-MILIKETUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06CA2C59949F64F4953AB2A389E878AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D5985AE7B3A21BE891802A24B9216C /* Pods-MILIKETUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260D98A0C7F635975ED26F282391F257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B83D1941EA7A96AFE2B045A8D610376 /* Pods-MILIKET-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E59E6DE45EF473E26D797257007B3E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D684A6622D64BADDFA5CFACFE84EC9 /* Pods-MILIKETTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00382A49689A0A0AA7CFE96D9D1AADF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABDF77B01D8EB3F3B0B684E5A6AAB769 /* Pods-MILIKET.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MILIKET/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MILIKET/Pods-MILIKET.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MILIKET;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0649B6799735D6CF6E24997F07B8569E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E572D43D7B136068A6FDC030046171EF /* Pods-MILIKETUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MILIKETUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MILIKETUITests/Pods-MILIKETUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MILIKETUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		268840894FCB6BA83058C1DB7F79E93C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC74EFB3EB9E0BF64948D93DBDC5841 /* Pods-MILIKETTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MILIKETTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MILIKETTests/Pods-MILIKETTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MILIKETTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		363F27DF00C7ADBF2218E15719C2FE28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91A0524DD42F3217CA5895BBC4365C4E /* Pods-MILIKETUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MILIKETUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MILIKETUITests/Pods-MILIKETUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MILIKETUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B4785CFA74240E0FF8F7599197F3A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96141F57DFFF01D4222E0FC16D94E10 /* Pods-MILIKET.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MILIKET/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MILIKET/Pods-MILIKET.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MILIKET;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99AE8A6D84241027ACF7CB7B9915F52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C897692601135800FCD2B061D44B3AB /* Pods-MILIKETTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MILIKETTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MILIKETTests/Pods-MILIKETTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MILIKETTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877DBAF9D6D33DAD6CE0118DC2D958C1 /* Build configuration list for PBXNativeTarget "Pods-MILIKETTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AE8A6D84241027ACF7CB7B9915F52C /* Debug */,
+				268840894FCB6BA83058C1DB7F79E93C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CEC002200959CB15BAB0A11F762D16 /* Build configuration list for PBXNativeTarget "Pods-MILIKETUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363F27DF00C7ADBF2218E15719C2FE28 /* Debug */,
+				0649B6799735D6CF6E24997F07B8569E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CE85110C83833A0AFF0BA1C23C9AC3 /* Build configuration list for PBXNativeTarget "Pods-MILIKET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4785CFA74240E0FF8F7599197F3A9D /* Debug */,
+				00382A49689A0A0AA7CFE96D9D1AADF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

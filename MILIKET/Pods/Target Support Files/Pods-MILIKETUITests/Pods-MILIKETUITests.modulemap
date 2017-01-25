@@ -1,0 +1,6 @@
+framework module Pods_MILIKETUITests {
+  umbrella header "Pods-MILIKETUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
