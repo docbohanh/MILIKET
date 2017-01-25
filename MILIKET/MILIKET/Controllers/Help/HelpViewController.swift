@@ -115,8 +115,10 @@ extension HelpViewController: UITableViewDelegate {
             HUD.showMessage("Chức năng đang cập nhật")
             
         default:
-            let detailVC = HelpDetailsViewController()
-            present(detailVC, animated: true, completion: nil)
+            let helpDetailsVC = HelpDetailsViewController()
+            helpDetailsVC.delegate = self
+            helpDetailsVC.typeHelp = HelpDetailsViewController.TypeHelp(rawValue: indexPath.row - 1)!
+            present(helpDetailsVC, animated: true, completion: nil)
         }
     }
 }

@@ -85,6 +85,8 @@
 		1345AB441E383C9F007A3D65 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345AB091E383C9F007A3D65 /* MKTextField.swift */; };
 		1345AB471E383DC2007A3D65 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345AB461E383DC2007A3D65 /* HelpViewController.swift */; };
 		1345AB4A1E383DFD007A3D65 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345AB491E383DFD007A3D65 /* GeneralViewController.swift */; };
+		13F2B7BF1E3881DF0081F0DC /* HelpContentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2B7BE1E3881DF0081F0DC /* HelpContentDetailsViewController.swift */; };
+		13F2B7C21E38822E0081F0DC /* ContentDetailsHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2B7C11E38822E0081F0DC /* ContentDetailsHelpView.swift */; };
 		6FF723C4B16B3DABFCFA10B2 /* Pods_MILIKETUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1615A782845F3CC0A161C79 /* Pods_MILIKETUITests.framework */; };
 		7EFAAE541F7F5F81B90A8C1F /* Pods_MILIKET.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB622B518F48B832B2ADC3A9 /* Pods_MILIKET.framework */; };
 		82D28027025480DB1C56FFC3 /* Pods_MILIKETTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64A837B8F682ED4B89E3F43 /* Pods_MILIKETTests.framework */; };
@@ -210,6 +212,8 @@
 		1345AB091E383C9F007A3D65 /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTextField.swift; sourceTree = "<group>"; };
 		1345AB461E383DC2007A3D65 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		1345AB491E383DFD007A3D65 /* GeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		13F2B7BE1E3881DF0081F0DC /* HelpContentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpContentDetailsViewController.swift; sourceTree = "<group>"; };
+		13F2B7C11E38822E0081F0DC /* ContentDetailsHelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentDetailsHelpView.swift; sourceTree = "<group>"; };
 		3227BAB7E5D7F231209AD19D /* Pods-MILIKETTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MILIKETTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MILIKETTests/Pods-MILIKETTests.release.xcconfig"; sourceTree = "<group>"; };
 		566DB0907CD3B5E90306B0DB /* Pods-MILIKET.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MILIKET.release.xcconfig"; path = "Pods/Target Support Files/Pods-MILIKET/Pods-MILIKET.release.xcconfig"; sourceTree = "<group>"; };
 		6FDF0E5D1D501F125CF4ED75 /* Pods-MILIKETUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MILIKETUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MILIKETUITests/Pods-MILIKETUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -435,6 +439,7 @@
 		1345AAFE1E383C9F007A3D65 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				13F2B7C01E3882120081F0DC /* Help */,
 				1345AAFF1E383C9F007A3D65 /* Cell */,
 				1345AB031E383C9F007A3D65 /* Custom */,
 				1345AB041E383C9F007A3D65 /* MateriaKit */,
@@ -476,6 +481,7 @@
 			children = (
 				1345AB461E383DC2007A3D65 /* HelpViewController.swift */,
 				132F1EFC1E3859D20070DB1A /* HelpDetailsViewController.swift */,
+				13F2B7BE1E3881DF0081F0DC /* HelpContentDetailsViewController.swift */,
 			);
 			path = Help;
 			sourceTree = "<group>";
@@ -486,6 +492,14 @@
 				1345AB491E383DFD007A3D65 /* GeneralViewController.swift */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		13F2B7C01E3882120081F0DC /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				13F2B7C11E38822E0081F0DC /* ContentDetailsHelpView.swift */,
+			);
+			path = Help;
 			sourceTree = "<group>";
 		};
 		5CB00D7242465A933ED92155 /* Frameworks */ = {
@@ -820,6 +834,7 @@
 				1345AB351E383C9F007A3D65 /* Utility.swift in Sources */,
 				1345AB0A1E383C9F007A3D65 /* Color.swift in Sources */,
 				132F1EFB1E38510F0070DB1A /* Language.swift in Sources */,
+				13F2B7C21E38822E0081F0DC /* ContentDetailsHelpView.swift in Sources */,
 				1345AB221E383C9F007A3D65 /* HUD.swift in Sources */,
 				1345AB3E1E383C9F007A3D65 /* HeaderTableView.swift in Sources */,
 				1345AB401E383C9F007A3D65 /* MKButton.swift in Sources */,
@@ -827,6 +842,7 @@
 				1345AB431E383C9F007A3D65 /* MKTableViewCell.swift in Sources */,
 				1345AB231E383C9F007A3D65 /* Image.swift in Sources */,
 				1345AB4A1E383DFD007A3D65 /* GeneralViewController.swift in Sources */,
+				13F2B7BF1E3881DF0081F0DC /* HelpContentDetailsViewController.swift in Sources */,
 				1345AB471E383DC2007A3D65 /* HelpViewController.swift in Sources */,
 				1345AB411E383C9F007A3D65 /* MKColor.swift in Sources */,
 				1345AB441E383C9F007A3D65 /* MKTextField.swift in Sources */,
@@ -1005,7 +1021,7 @@
 					"$(PROJECT_DIR)/MILIKET/Framework",
 				);
 				INFOPLIST_FILE = MILIKET/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binhanh.MILIKET;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1024,7 +1040,7 @@
 					"$(PROJECT_DIR)/MILIKET/Framework",
 				);
 				INFOPLIST_FILE = MILIKET/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binhanh.MILIKET;
 				PRODUCT_NAME = "$(TARGET_NAME)";
