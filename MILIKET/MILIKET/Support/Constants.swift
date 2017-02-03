@@ -34,7 +34,7 @@ enum AppNotification: String {
     case SaveTrackingSignal = "save_tracking"
 }
 
-
+var Domain = "http://chungtay.binhanh.com.vn"
 
 enum LanguageValue: Int {
     case vietnamese = 0

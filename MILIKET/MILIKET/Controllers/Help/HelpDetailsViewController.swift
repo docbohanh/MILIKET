@@ -104,6 +104,7 @@ class HelpDetailsViewController: GeneralViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
     }
+    
 }
 
 //-------------------------------------------
@@ -238,7 +239,12 @@ extension HelpDetailsViewController {
     }
     
     func setupAllConstraints() {
-        
+        done.snp.makeConstraints { (make) in
+            make.bottom.equalTo(view.snp.bottom)
+            make.centerX.equalTo(view)
+            make.height.equalTo(Size.button..)
+            make.width.equalTo(view.frame.width / 2)
+        }
         
     }
     

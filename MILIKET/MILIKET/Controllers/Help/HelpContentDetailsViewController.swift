@@ -41,6 +41,8 @@ class HelpContentDetailsViewController: GeneralViewController {
 extension HelpContentDetailsViewController {
     fileprivate func setupAllSubviews() {
         
+        view.backgroundColor = .clear
+        
         contentView = setupContentView()
         view.addSubview(contentView)
         
@@ -60,7 +62,8 @@ extension HelpContentDetailsViewController {
     
     func setupAllConstraints() {
         contentView.snp.makeConstraints { (make) in
-            make.edges.equalTo(view)
+            make.leading.trailing.bottom.equalTo(view)
+            make.top.equalTo(view.snp.top).inset(20)
         }
     }
     

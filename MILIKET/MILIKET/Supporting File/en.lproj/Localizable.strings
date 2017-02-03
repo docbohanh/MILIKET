@@ -7,12 +7,49 @@
 */
 
 /*!============================================
+ * MARK:           - GENERAL
+ * ============================================*/
+
+"search_bar_placeholder" = "Tìm kiếm";
+
+"genenal_button_cancel" = "Bỏ qua";
+
+"genenal_button_done" = "Xong";
+
+"genenal_button_agree" = "Đồng ý";
+
+"genenal_button_confirm" = "Xác nhận";
+
+"general_default_button_delete" = "Xóa";
+
+ 
+/*!============================================
  * MARK:           - HELP
  * ============================================*/
 
 "terms_title" = "Điều khoản sử dụng";
 
 "help_view_tracking" = "Xem lộ trình";
+
+
+//================ HELP CONTENT DETAILS
+
+"help_booking_title_1" = "Phóng to, thu nhỏ bản đồ";
+
+"help_booking_title_2" = "Thông tin theo thời gian thực";
+
+"help_booking_title_3" = "Sử dụng điều khiển lộ trình";
+
+"help_booking_title_4" = "Xem thông tin tại một điểm";
+
+"help_booking_content_1" = " - Để phóng to bản đồ, sử dụng 1 ngón tay chạm vào bản đồ liên tục 2 lần.\n\n - Để thu nhỏ, sử dụng 2 chạm vào bản đồ.";
+
+"help_booking_content_2" = " - Thông tin về vận tốc tại 1 thời điểm sẽ hiển thị ở góc trên bên phải của màn hình.\n\n - Để ẩn hoặc hiện thông tin này, vui lòng bấm vào nút \"Info\"";
+
+"help_booking_content_3" = " - Bạn có tăng tốc độ chạy bằng cách bấm vào nút thể hiện tốc độ hiện tại \"...X\".\n\n - Kéo nút hình tròn để tua đến 1 thời điểm mà bạn muốn xem";
+
+"help_booking_content_4" = " - Bấm vào cái biểu tượng trên bản đồ để xem thông tin tại 1 điểm như \"Stop\" để xem thời điểm xe dừng và khoảng thời gian dừng tại 1 điểm.";
+
 
 /*! ===========================================
  *  MARK:           - IMAGE

@@ -107,6 +107,10 @@ extension HelpViewController: UITableViewDelegate {
         return 55
     }
     
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 1
+    }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
@@ -137,7 +141,6 @@ extension HelpViewController {
     func setupAllSubviews() {
         
         UIApplication.shared.statusBarStyle = .default
-        navigationController?.setNavigationBarHidden(false, animated: true)
         navigationController?.navigationBar.isTranslucent = false
         title = "Trợ giúp"
         setupButtonBack()

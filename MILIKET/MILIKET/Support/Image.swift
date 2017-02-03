@@ -131,5 +131,17 @@ struct Icon {
         
         static var Tracking: UIImage { return UIImage(named: "Help_Tracking")! }
     }
+    
+    /// Icon các Items cho TabBar Chính
+    struct TabBar {
+        
+        static var history: UIImage { return UIImage(named: "TabBarHistory")! }
+        
+        static var article: UIImage { return UIImage(named: "TabBarArticle")! }
+        
+        static var noteBook: UIImage { return UIImage(named: "TabBarNoteBook")! }
+        
+        static var personal: UIImage { return UIImage(named: "TabBarPersonal")! }
+    }
 
 }
