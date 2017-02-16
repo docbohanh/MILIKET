@@ -29,11 +29,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let GMSServiceKey = "AIzaSyDGP7n2-4MKQjQ6ucNROKPDrjvWLM5etfo"
         GMSServices.provideAPIKey(GMSServiceKey)
         
-//        let navigationController = setupNavigationController(root: HelpViewController())
-        let tabBarVC = setupTabBarController()
+        let navigationController = setupNavigationController()
+//        let tabBarVC = setupTabBarController()
         
         if let window = window {
-            window.rootViewController = tabBarVC            
+            window.rootViewController = navigationController
             window.makeKeyAndVisible()
         }
         
@@ -67,63 +67,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     /**
      Setup Navigation
      */
-    fileprivate func setupNavigationController(root viewController: UIViewController) -> UINavigationController {
+    fileprivate func setupNavigationController() -> UINavigationController {
         
-        let navigationController = UINavigationController(rootViewController: viewController)
+        let mainVC = LoginViewController()
+        let navigationController = UINavigationController(rootViewController: mainVC)
         Utility.shared.configureAppearance(navigation: navigationController)
         
         return navigationController
     }
 
-    
-    /**
-     Setup Tabbar
-     */
-    
-    /**
-     Setup Tabbar
-     */
-    
-    private func setupTabBarController() -> UITabBarController {
-        
-        let tabbarVC = UITabBarController()
-        
-        let naviHistoryVC = UINavigationController(rootViewController: HistoryViewController())
-        let naviNoteVC    = UINavigationController(rootViewController: NoteViewController())
-        let naviArticleVC = UINavigationController(rootViewController: ArticleViewController())
-        let naviPersonalVC = UINavigationController(rootViewController: HelpViewController())
-        
-        let viewControllers = [naviArticleVC, naviNoteVC, naviHistoryVC, naviPersonalVC]
-        
-        viewControllers.forEach { Utility.shared.configureAppearance(navigation: $0) }
-        
-        tabbarVC.viewControllers = viewControllers
-        
-        tabbarVC.tabBar.barStyle = .default
-        tabbarVC.tabBar.backgroundColor = UIColor.Navigation.main
-        tabbarVC.tabBar.barTintColor = UIColor.white.alpha(0.8)
-        tabbarVC.tabBar.isTranslucent = false
-        
-        let items: [(title: String, image: UIImage)] = [
-            ("Tin tức", Icon.TabBar.article),
-            ("Sổ tay",  Icon.TabBar.noteBook),
-            ("Lịch sử", Icon.TabBar.history),
-            ("Trợ giúp", Icon.Help.Terms)
-        ]
-        
-        
-        for (i, item)  in tabbarVC.tabBar.items!.enumerated() {
-            item.selectedImage = items[i].image.tint(UIColor.main)
-            item.image = items[i].image.tint(UIColor.lightGray)
-            item.title = items[i].title
-            
-            item.setTitleTextAttributes([
-                NSFontAttributeName: UIFont(name: FontType.latoSemibold.., size: FontSize.small++)!], for: .normal)
-            
-        }
-        
-        return tabbarVC
-    }
 
 }
 

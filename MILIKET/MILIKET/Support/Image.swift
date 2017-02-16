@@ -65,6 +65,15 @@ struct Icon {
     struct General {
         static var myLocation = UIImage(named: "MyLocation")!
         static var arrowDown = UIImage(named: "ArrowDown")!
+        static var background = UIImage(named: "cover")!
+        static var logo = UIImage(named: "logo")!
+    }
+    
+    struct Login {
+        static var Person = UIImage(named: "Person")!
+        static var Key = UIImage(named: "Key")!
+        static var CheckBox = UIImage(named: "CheckBox")!
+        static var UncheckBox = UIImage(named: "UncheckBox")!
     }
     
     struct Person {
@@ -142,6 +151,17 @@ struct Icon {
         static var noteBook: UIImage { return UIImage(named: "TabBarNoteBook")! }
         
         static var personal: UIImage { return UIImage(named: "TabBarPersonal")! }
+    }
+    
+    struct Personal {
+        
+        static var AvatarDefault: UIImage { return UIImage(named: "AvatarDefault")! }
+        
+        static var ChangedPassword: UIImage { return UIImage(named: "ChangedPassword")! }
+        
+        static var Feedback: UIImage { return UIImage(named: "Feedback")! }
+        
+        static var Logout: UIImage { return UIImage(named: "Logout")! }
     }
 
 }

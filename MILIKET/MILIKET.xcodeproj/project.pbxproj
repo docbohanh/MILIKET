@@ -94,6 +94,11 @@
 		13D7BF141E552E800053E6A4 /* RealmAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF131E552E800053E6A4 /* RealmAccount.swift */; };
 		13D7BF161E552FAD0053E6A4 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF151E552FAD0053E6A4 /* Account.swift */; };
 		13D7BF191E5537EA0053E6A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF181E5537EA0053E6A4 /* LoginViewController.swift */; };
+		13D7BF1D1E5576400053E6A4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF1C1E5576400053E6A4 /* LoginView.swift */; };
+		13D7BF211E55770F0053E6A4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF201E55770F0053E6A4 /* CustomTextField.swift */; };
+		13D7BF311E5581FB0053E6A4 /* ChangedPasswordFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF2C1E5581FB0053E6A4 /* ChangedPasswordFooterView.swift */; };
+		13D7BF341E5581FB0053E6A4 /* PersonalFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF2F1E5581FB0053E6A4 /* PersonalFooterView.swift */; };
+		13D7BF351E5581FB0053E6A4 /* PersonalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF301E5581FB0053E6A4 /* PersonalHeaderView.swift */; };
 		13F2B7BF1E3881DF0081F0DC /* HelpContentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2B7BE1E3881DF0081F0DC /* HelpContentDetailsViewController.swift */; };
 		13F2B7C21E38822E0081F0DC /* ContentDetailsHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2B7C11E38822E0081F0DC /* ContentDetailsHelpView.swift */; };
 		6FF723C4B16B3DABFCFA10B2 /* Pods_MILIKETUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1615A782845F3CC0A161C79 /* Pods_MILIKETUITests.framework */; };
@@ -230,6 +235,11 @@
 		13D7BF131E552E800053E6A4 /* RealmAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmAccount.swift; sourceTree = "<group>"; };
 		13D7BF151E552FAD0053E6A4 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		13D7BF181E5537EA0053E6A4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		13D7BF1C1E5576400053E6A4 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		13D7BF201E55770F0053E6A4 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		13D7BF2C1E5581FB0053E6A4 /* ChangedPasswordFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangedPasswordFooterView.swift; sourceTree = "<group>"; };
+		13D7BF2F1E5581FB0053E6A4 /* PersonalFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalFooterView.swift; sourceTree = "<group>"; };
+		13D7BF301E5581FB0053E6A4 /* PersonalHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalHeaderView.swift; sourceTree = "<group>"; };
 		13F2B7BE1E3881DF0081F0DC /* HelpContentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpContentDetailsViewController.swift; sourceTree = "<group>"; };
 		13F2B7C11E38822E0081F0DC /* ContentDetailsHelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentDetailsHelpView.swift; sourceTree = "<group>"; };
 		3227BAB7E5D7F231209AD19D /* Pods-MILIKETTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MILIKETTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MILIKETTests/Pods-MILIKETTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -452,9 +462,10 @@
 		1345AAFE1E383C9F007A3D65 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				13D7BF2B1E5581FB0053E6A4 /* Personal */,
+				13D7BF1B1E5576400053E6A4 /* Login */,
 				13F2B7C01E3882120081F0DC /* Help */,
 				1345AAFF1E383C9F007A3D65 /* Cell */,
-				1345AB031E383C9F007A3D65 /* Custom */,
 				1345AB041E383C9F007A3D65 /* MateriaKit */,
 			);
 			path = Views;
@@ -469,13 +480,6 @@
 				137D3E2D1E3DDFD7003D35C0 /* ArticleTableViewCell.swift */,
 			);
 			path = Cell;
-			sourceTree = "<group>";
-		};
-		1345AB031E383C9F007A3D65 /* Custom */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Custom;
 			sourceTree = "<group>";
 		};
 		1345AB041E383C9F007A3D65 /* MateriaKit */ = {
@@ -536,6 +540,25 @@
 				13D7BF181E5537EA0053E6A4 /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		13D7BF1B1E5576400053E6A4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				13D7BF1C1E5576400053E6A4 /* LoginView.swift */,
+				13D7BF201E55770F0053E6A4 /* CustomTextField.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		13D7BF2B1E5581FB0053E6A4 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				13D7BF2C1E5581FB0053E6A4 /* ChangedPasswordFooterView.swift */,
+				13D7BF2F1E5581FB0053E6A4 /* PersonalFooterView.swift */,
+				13D7BF301E5581FB0053E6A4 /* PersonalHeaderView.swift */,
+			);
+			path = Personal;
 			sourceTree = "<group>";
 		};
 		13F2B7C01E3882120081F0DC /* Help */ = {
@@ -875,6 +898,8 @@
 				1345AB271E383C9F007A3D65 /* Result.swift in Sources */,
 				1345AA1E1E383ADD007A3D65 /* AppDelegate.swift in Sources */,
 				1345AB3F1E383C9F007A3D65 /* SeparatorTableViewCell.swift in Sources */,
+				13D7BF211E55770F0053E6A4 /* CustomTextField.swift in Sources */,
+				13D7BF1D1E5576400053E6A4 /* LoginView.swift in Sources */,
 				1345AB3D1E383C9F007A3D65 /* EmptyTableViewCell.swift in Sources */,
 				1345AB261E383C9F007A3D65 /* ReachabilitySupport.swift in Sources */,
 				137D3E2E1E3DDFD7003D35C0 /* ArticleTableViewCell.swift in Sources */,
@@ -891,7 +916,10 @@
 				132F1EFD1E3859D20070DB1A /* HelpDetailsViewController.swift in Sources */,
 				1345AB431E383C9F007A3D65 /* MKTableViewCell.swift in Sources */,
 				13D7BF161E552FAD0053E6A4 /* Account.swift in Sources */,
+				13D7BF311E5581FB0053E6A4 /* ChangedPasswordFooterView.swift in Sources */,
 				1345AB231E383C9F007A3D65 /* Image.swift in Sources */,
+				13D7BF351E5581FB0053E6A4 /* PersonalHeaderView.swift in Sources */,
+				13D7BF341E5581FB0053E6A4 /* PersonalFooterView.swift in Sources */,
 				1345AB4A1E383DFD007A3D65 /* GeneralViewController.swift in Sources */,
 				13F2B7BF1E3881DF0081F0DC /* HelpContentDetailsViewController.swift in Sources */,
 				1345AB471E383DC2007A3D65 /* HelpViewController.swift in Sources */,
