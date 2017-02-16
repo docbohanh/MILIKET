@@ -93,6 +93,7 @@
 		13D7BF121E552E710053E6A4 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF111E552E710053E6A4 /* Article.swift */; };
 		13D7BF141E552E800053E6A4 /* RealmAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF131E552E800053E6A4 /* RealmAccount.swift */; };
 		13D7BF161E552FAD0053E6A4 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF151E552FAD0053E6A4 /* Account.swift */; };
+		13D7BF191E5537EA0053E6A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF181E5537EA0053E6A4 /* LoginViewController.swift */; };
 		13F2B7BF1E3881DF0081F0DC /* HelpContentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2B7BE1E3881DF0081F0DC /* HelpContentDetailsViewController.swift */; };
 		13F2B7C21E38822E0081F0DC /* ContentDetailsHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2B7C11E38822E0081F0DC /* ContentDetailsHelpView.swift */; };
 		6FF723C4B16B3DABFCFA10B2 /* Pods_MILIKETUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1615A782845F3CC0A161C79 /* Pods_MILIKETUITests.framework */; };
@@ -228,6 +229,7 @@
 		13D7BF111E552E710053E6A4 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		13D7BF131E552E800053E6A4 /* RealmAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmAccount.swift; sourceTree = "<group>"; };
 		13D7BF151E552FAD0053E6A4 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		13D7BF181E5537EA0053E6A4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		13F2B7BE1E3881DF0081F0DC /* HelpContentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpContentDetailsViewController.swift; sourceTree = "<group>"; };
 		13F2B7C11E38822E0081F0DC /* ContentDetailsHelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentDetailsHelpView.swift; sourceTree = "<group>"; };
 		3227BAB7E5D7F231209AD19D /* Pods-MILIKETTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MILIKETTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MILIKETTests/Pods-MILIKETTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 		1345AAB91E383C9F007A3D65 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				13D7BF171E5537DB0053E6A4 /* Login */,
 				136C0F911E3CD3C200337C8A /* Custom */,
 				1345AB481E383DFD007A3D65 /* General */,
 				1345AB451E383DA6007A3D65 /* Help */,
@@ -526,6 +529,14 @@
 			name = Model;
 			path = MILIKET/Model;
 			sourceTree = SOURCE_ROOT;
+		};
+		13D7BF171E5537DB0053E6A4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				13D7BF181E5537EA0053E6A4 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
 		};
 		13F2B7C01E3882120081F0DC /* Help */ = {
 			isa = PBXGroup;
@@ -886,6 +897,7 @@
 				1345AB471E383DC2007A3D65 /* HelpViewController.swift in Sources */,
 				13D7BF121E552E710053E6A4 /* Article.swift in Sources */,
 				1345AB411E383C9F007A3D65 /* MKColor.swift in Sources */,
+				13D7BF191E5537EA0053E6A4 /* LoginViewController.swift in Sources */,
 				1345AB441E383C9F007A3D65 /* MKTextField.swift in Sources */,
 				1345AB211E383C9F007A3D65 /* Extensions.swift in Sources */,
 				1345AB0B1E383C9F007A3D65 /* Constants.swift in Sources */,
