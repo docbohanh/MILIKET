@@ -127,7 +127,7 @@ private struct PagingMenuOptions: PagingMenuControllerCustomizable {
         }
         
         var focusMode: MenuFocusMode {
-            return .underline(height: 3, color: UIColor.red, horizontalPadding: 0, verticalPadding: 0)
+            return .underline(height: 3 * onePixel(), color: UIColor.red, horizontalPadding: 0, verticalPadding: 0)
         }
         
         var itemsOptions: [MenuItemViewCustomizable] {
