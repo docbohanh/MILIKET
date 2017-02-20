@@ -88,27 +88,6 @@ extension ArticleViewController {
         let options = PagingMenuOptions()
         let pagingMenuController = PagingMenuController(options: options)
         
-        pagingMenuController.onMove = { state in
-            switch state {
-            case let .willMoveController(menuController, previousMenuController):
-                print(previousMenuController)
-                print(menuController)
-            case let .didMoveController(menuController, previousMenuController):
-                print(previousMenuController)
-                print(menuController)
-            case let .willMoveItem(menuItemView, previousMenuItemView):
-                print(previousMenuItemView)
-                print(menuItemView)
-            case let .didMoveItem(menuItemView, previousMenuItemView):
-                print(previousMenuItemView)
-                print(menuItemView)
-            case .didScrollStart:
-                print("Scroll start")
-            case .didScrollEnd:
-                print("Scroll end")
-            }
-        }
-        
         addChildViewController(pagingMenuController)
         view.addSubview(pagingMenuController.view)
         pagingMenuController.didMove(toParentViewController: self)
@@ -129,6 +108,9 @@ private struct PagingMenuOptions: PagingMenuControllerCustomizable {
     }
     
     fileprivate struct MenuOptions: MenuViewCustomizable {
+        
+        let bgColor: UIColor = .main
+        
         var displayMode: MenuDisplayMode {
             return .segmentedControl
         }
@@ -142,11 +124,11 @@ private struct PagingMenuOptions: PagingMenuControllerCustomizable {
         }
         
         var backgroundColor: UIColor {
-            return .main
+            return bgColor
         }
         
         var selectedBackgroundColor: UIColor {
-            return .main
+            return bgColor
         }
         
         var height: CGFloat {

@@ -162,6 +162,34 @@ struct Utility {
         
         return tabbarVC
     }
+    
+    func fixtureSectionData() -> [TitleSection] {
+        
+        return [
+            
+            TitleSection(titleSection: "",
+                         arrayCell: [
+                            TitleCell(title: "Tin tức", icon: Icon.TabBar.article)
+                            ]),
+            
+            TitleSection(titleSection: "Giải đấu",
+                         arrayCell: [
+                            TitleCell(title: "Premier League",   icon: Icon.TabBar.noteBook),
+                            TitleCell(title: "La Liga",          icon: Icon.TabBar.noteBook),
+                            TitleCell(title: "Bundesliga",       icon: Icon.TabBar.noteBook),
+                            TitleCell(title: "Seri A",           icon: Icon.TabBar.noteBook),
+                            TitleCell(title: "Champions League", icon: Icon.TabBar.noteBook),
+                            
+                            ]),
+            
+            TitleSection(titleSection: "Khác",
+                         arrayCell: [
+                            TitleCell(title: "About",       icon: Icon.TabBar.history)
+                            ])
+            
+            
+        ]
+    }
 
 }
 

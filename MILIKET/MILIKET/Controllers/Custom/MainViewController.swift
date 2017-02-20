@@ -12,11 +12,23 @@ import PHExtensions
 
 class MainViewController: GeneralViewController {
     enum Size: CGFloat {
-        case padding = 15, button = 44, cell = 54, padding10 = 10
+        case padding = 15, button = 44, cell = 54, padding10 = 10, padding5 = 5, segment = 30
     }
     
     var scrollView: UIScrollView!
-//    var segment: FUISegmentedControl!
+    var segment: FUISegmentedControl!
+    
+    enum SegmentPosition: Int {
+        case first = 0, second
+    }
+    
+    /**
+     Array cho segmentedControl | (Số thứ tự, title)
+     */
+    fileprivate let segmentArray: [(pos: SegmentPosition, title: String)] = [(.first, "Tin tức"), (.second, "Videos")]
+    
+    
+    var postion: SegmentPosition = .first
     
     //-------------------------------------
     // MARK: - CYCLE LIFE
@@ -71,7 +83,17 @@ extension MainViewController {
     }
     
     func setupAllConstraints() {
-        
+                
+//        segment.snp.makeConstraints { (make) in
+//            make.centerX.equalTo(view)
+//            make.left.top.right.equalTo(Size.padding5..)
+//            make.height.equalTo(Size.segment..)
+//        }
+//        
+//        scrollView.snp.makeConstraints { (make) in
+//            make.left.width.bottom.equalTo(view)
+//            make.top.equalTo(segment.snp.bottom).inset(Size.padding5..)
+//        }
         
     }
     

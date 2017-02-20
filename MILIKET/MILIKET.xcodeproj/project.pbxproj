@@ -25,13 +25,16 @@
 		133484511E5A73E900BD6435 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334844E1E5A73E900BD6435 /* KYEmbedMainControllerSegue.swift */; };
 		133484541E5A73F500BD6435 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133484521E5A73F500BD6435 /* NewsViewController.swift */; };
 		133484551E5A73F500BD6435 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133484531E5A73F500BD6435 /* VideosViewController.swift */; };
-		133484571E5A744400BD6435 /* MKSideDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133484561E5A744400BD6435 /* MKSideDrawerViewController.swift */; };
 		133484591E5A75C400BD6435 /* PagingMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133484581E5A75C400BD6435 /* PagingMenuController.framework */; };
 		1334845A1E5A75C400BD6435 /* PagingMenuController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 133484581E5A75C400BD6435 /* PagingMenuController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		133484621E5AA2D900BD6435 /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1334845D1E5AA2D900BD6435 /* FUISegmentedControl.m */; };
 		133484631E5AA2D900BD6435 /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1334845F1E5AA2D900BD6435 /* UIColor+FlatUI.m */; };
 		133484641E5AA2D900BD6435 /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 133484611E5AA2D900BD6435 /* UIImage+FlatUI.m */; };
 		133484661E5AA7FE00BD6435 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133484651E5AA7FE00BD6435 /* MainViewController.swift */; };
+		133484781E5ABF7700BD6435 /* SideBarMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133484771E5ABF7700BD6435 /* SideBarMenuViewController.swift */; };
+		1334847B1E5AC8C700BD6435 /* EmptyTableDateSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334847A1E5AC8C700BD6435 /* EmptyTableDateSource.swift */; };
+		1334847D1E5AC9CB00BD6435 /* EmptyImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334847C1E5AC9CB00BD6435 /* EmptyImageTableViewCell.swift */; };
+		133484921E5AF3EC00BD6435 /* SideBarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133484911E5AF3EC00BD6435 /* SideBarHeaderView.swift */; };
 		1345AA1E1E383ADD007A3D65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345AA1D1E383ADD007A3D65 /* AppDelegate.swift */; };
 		1345AA201E383ADD007A3D65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345AA1F1E383ADD007A3D65 /* ViewController.swift */; };
 		1345AA231E383ADD007A3D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1345AA211E383ADD007A3D65 /* Main.storyboard */; };
@@ -188,7 +191,6 @@
 		1334844E1E5A73E900BD6435 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
 		133484521E5A73F500BD6435 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		133484531E5A73F500BD6435 /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
-		133484561E5A744400BD6435 /* MKSideDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKSideDrawerViewController.swift; sourceTree = "<group>"; };
 		133484581E5A75C400BD6435 /* PagingMenuController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PagingMenuController.framework; path = Carthage/Build/iOS/PagingMenuController.framework; sourceTree = "<group>"; };
 		1334845C1E5AA2D900BD6435 /* FUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISegmentedControl.h; sourceTree = "<group>"; };
 		1334845D1E5AA2D900BD6435 /* FUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUISegmentedControl.m; sourceTree = "<group>"; };
@@ -197,7 +199,11 @@
 		133484601E5AA2D900BD6435 /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlatUI.h"; sourceTree = "<group>"; };
 		133484611E5AA2D900BD6435 /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
 		133484651E5AA7FE00BD6435 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		133484731E5AADBF00BD6435 /* MILIKET-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MILIKET-Bridging-Header.h"; path = "../../MILIKET-Bridging-Header.h"; sourceTree = "<group>"; };
+		133484761E5ABA6100BD6435 /* MILIKET-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MILIKET-Bridging-Header.h"; path = "MILIKET/MILIKET-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		133484771E5ABF7700BD6435 /* SideBarMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarMenuViewController.swift; sourceTree = "<group>"; };
+		1334847A1E5AC8C700BD6435 /* EmptyTableDateSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyTableDateSource.swift; sourceTree = "<group>"; };
+		1334847C1E5AC9CB00BD6435 /* EmptyImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyImageTableViewCell.swift; sourceTree = "<group>"; };
+		133484911E5AF3EC00BD6435 /* SideBarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarHeaderView.swift; sourceTree = "<group>"; };
 		1345AA1A1E383ADD007A3D65 /* MILIKET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MILIKET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1345AA1D1E383ADD007A3D65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		1345AA1F1E383ADD007A3D65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
@@ -365,6 +371,22 @@
 			path = FUISegment;
 			sourceTree = "<group>";
 		};
+		133484791E5AC8B700BD6435 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				1334847A1E5AC8C700BD6435 /* EmptyTableDateSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		133484901E5AF3DF00BD6435 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				133484911E5AF3EC00BD6435 /* SideBarHeaderView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		1345AA111E383ADD007A3D65 = {
 			isa = PBXGroup;
 			children = (
@@ -452,6 +474,7 @@
 		1345AAB91E383C9F007A3D65 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				133484791E5AC8B700BD6435 /* DataSource */,
 				1334844B1E5A73E900BD6435 /* DrawerController */,
 				13D7BF361E55873B0053E6A4 /* Personal */,
 				13D7BF171E5537DB0053E6A4 /* Login */,
@@ -489,7 +512,6 @@
 		1345AAF51E383C9F007A3D65 /* Supporting File */ = {
 			isa = PBXGroup;
 			children = (
-				133484731E5AADBF00BD6435 /* MILIKET-Bridging-Header.h */,
 				132F1F0F1E385E4F0070DB1A /* ViewTracking */,
 				1345AA1D1E383ADD007A3D65 /* AppDelegate.swift */,
 				1345AA1F1E383ADD007A3D65 /* ViewController.swift */,
@@ -499,6 +521,7 @@
 				1345AA291E383ADD007A3D65 /* Info.plist */,
 				1345AAF61E383C9F007A3D65 /* Lato Font */,
 				132F1F0B1E385CF90070DB1A /* Localizable.strings */,
+				133484761E5ABA6100BD6435 /* MILIKET-Bridging-Header.h */,
 			);
 			path = "Supporting File";
 			sourceTree = "<group>";
@@ -520,6 +543,7 @@
 		1345AAFE1E383C9F007A3D65 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				133484901E5AF3DF00BD6435 /* Custom */,
 				1334845B1E5AA2D900BD6435 /* FUISegment */,
 				13D7BF2B1E5581FB0053E6A4 /* Personal */,
 				13D7BF1B1E5576400053E6A4 /* Login */,
@@ -537,6 +561,7 @@
 				1345AB011E383C9F007A3D65 /* HeaderTableView.swift */,
 				1345AB021E383C9F007A3D65 /* SeparatorTableViewCell.swift */,
 				137D3E2D1E3DDFD7003D35C0 /* ArticleTableViewCell.swift */,
+				1334847C1E5AC9CB00BD6435 /* EmptyImageTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -544,7 +569,6 @@
 		1345AB041E383C9F007A3D65 /* MateriaKit */ = {
 			isa = PBXGroup;
 			children = (
-				133484561E5A744400BD6435 /* MKSideDrawerViewController.swift */,
 				1345AB051E383C9F007A3D65 /* MKButton.swift */,
 				1345AB061E383C9F007A3D65 /* MKColor.swift */,
 				1345AB071E383C9F007A3D65 /* MKLayer.swift */,
@@ -581,6 +605,7 @@
 				136C0F961E3CD5D200337C8A /* NoteViewController.swift */,
 				136C0F981E3CD5DE00337C8A /* HistoryViewController.swift */,
 				133484651E5AA7FE00BD6435 /* MainViewController.swift */,
+				133484771E5ABF7700BD6435 /* SideBarMenuViewController.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -967,10 +992,10 @@
 				1345AB421E383C9F007A3D65 /* MKLayer.swift in Sources */,
 				1345AA201E383ADD007A3D65 /* ViewController.swift in Sources */,
 				1345AB251E383C9F007A3D65 /* LoggerSupport.swift in Sources */,
-				133484571E5A744400BD6435 /* MKSideDrawerViewController.swift in Sources */,
 				13D7BF421E55893F0053E6A4 /* ChangePassViewController.swift in Sources */,
 				133484631E5AA2D900BD6435 /* UIColor+FlatUI.m in Sources */,
 				1345AB271E383C9F007A3D65 /* Result.swift in Sources */,
+				133484921E5AF3EC00BD6435 /* SideBarHeaderView.swift in Sources */,
 				1345AA1E1E383ADD007A3D65 /* AppDelegate.swift in Sources */,
 				1345AB3F1E383C9F007A3D65 /* SeparatorTableViewCell.swift in Sources */,
 				13D7BF211E55770F0053E6A4 /* CustomTextField.swift in Sources */,
@@ -988,12 +1013,15 @@
 				136C0F951E3CD5C200337C8A /* ArticleViewController.swift in Sources */,
 				1345AB221E383C9F007A3D65 /* HUD.swift in Sources */,
 				1345AB3E1E383C9F007A3D65 /* HeaderTableView.swift in Sources */,
+				133484781E5ABF7700BD6435 /* SideBarMenuViewController.swift in Sources */,
 				1345AB401E383C9F007A3D65 /* MKButton.swift in Sources */,
 				13D7BF401E5587C20053E6A4 /* PersonalViewController.swift in Sources */,
 				132F1EFD1E3859D20070DB1A /* HelpDetailsViewController.swift in Sources */,
 				1345AB431E383C9F007A3D65 /* MKTableViewCell.swift in Sources */,
 				13D7BF161E552FAD0053E6A4 /* Account.swift in Sources */,
 				13D7BF311E5581FB0053E6A4 /* ChangedPasswordFooterView.swift in Sources */,
+				1334847B1E5AC8C700BD6435 /* EmptyTableDateSource.swift in Sources */,
+				1334847D1E5AC9CB00BD6435 /* EmptyImageTableViewCell.swift in Sources */,
 				1345AB231E383C9F007A3D65 /* Image.swift in Sources */,
 				13D7BF351E5581FB0053E6A4 /* PersonalHeaderView.swift in Sources */,
 				133484621E5AA2D900BD6435 /* FUISegmentedControl.m in Sources */,
@@ -1189,7 +1217,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binhanh.MILIKET;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MILIKET/MILIKET-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1211,7 +1239,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binhanh.MILIKET;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MILIKET/MILIKET-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_VERSION = 3.0;
 			};
