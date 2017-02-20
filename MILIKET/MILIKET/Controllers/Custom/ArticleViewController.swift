@@ -69,6 +69,22 @@ extension ArticleViewController {
         
         setupLeftBarButton()
                 
+        setupPagingMenuViewController()
+        
+    }
+    
+    func setupAllConstraints() {
+        
+    }
+    
+    ///
+    fileprivate func setupLeftBarButton() {
+        let left = setupBarButton(image: Icon.Nav.Menu, selector: #selector(self.menu(_:)), target: self)
+        navigationItem.leftBarButtonItem = left
+    }
+    
+    ///
+    func setupPagingMenuViewController() {
         let options = PagingMenuOptions()
         let pagingMenuController = PagingMenuController(options: options)
         
@@ -96,15 +112,6 @@ extension ArticleViewController {
         addChildViewController(pagingMenuController)
         view.addSubview(pagingMenuController.view)
         pagingMenuController.didMove(toParentViewController: self)
-        
-    }
-    
-    func setupAllConstraints() {
-        
-    }
-    fileprivate func setupLeftBarButton() {
-        let left = setupBarButton(image: Icon.Nav.Menu, selector: #selector(self.menu(_:)), target: self)
-        navigationItem.leftBarButtonItem = left
     }
     
 }

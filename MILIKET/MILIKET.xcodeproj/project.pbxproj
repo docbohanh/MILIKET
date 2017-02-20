@@ -28,6 +28,10 @@
 		133484571E5A744400BD6435 /* MKSideDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133484561E5A744400BD6435 /* MKSideDrawerViewController.swift */; };
 		133484591E5A75C400BD6435 /* PagingMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133484581E5A75C400BD6435 /* PagingMenuController.framework */; };
 		1334845A1E5A75C400BD6435 /* PagingMenuController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 133484581E5A75C400BD6435 /* PagingMenuController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		133484621E5AA2D900BD6435 /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1334845D1E5AA2D900BD6435 /* FUISegmentedControl.m */; };
+		133484631E5AA2D900BD6435 /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1334845F1E5AA2D900BD6435 /* UIColor+FlatUI.m */; };
+		133484641E5AA2D900BD6435 /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 133484611E5AA2D900BD6435 /* UIImage+FlatUI.m */; };
+		133484661E5AA7FE00BD6435 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133484651E5AA7FE00BD6435 /* MainViewController.swift */; };
 		1345AA1E1E383ADD007A3D65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345AA1D1E383ADD007A3D65 /* AppDelegate.swift */; };
 		1345AA201E383ADD007A3D65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345AA1F1E383ADD007A3D65 /* ViewController.swift */; };
 		1345AA231E383ADD007A3D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1345AA211E383ADD007A3D65 /* Main.storyboard */; };
@@ -186,6 +190,14 @@
 		133484531E5A73F500BD6435 /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
 		133484561E5A744400BD6435 /* MKSideDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKSideDrawerViewController.swift; sourceTree = "<group>"; };
 		133484581E5A75C400BD6435 /* PagingMenuController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PagingMenuController.framework; path = Carthage/Build/iOS/PagingMenuController.framework; sourceTree = "<group>"; };
+		1334845C1E5AA2D900BD6435 /* FUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISegmentedControl.h; sourceTree = "<group>"; };
+		1334845D1E5AA2D900BD6435 /* FUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUISegmentedControl.m; sourceTree = "<group>"; };
+		1334845E1E5AA2D900BD6435 /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		1334845F1E5AA2D900BD6435 /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		133484601E5AA2D900BD6435 /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlatUI.h"; sourceTree = "<group>"; };
+		133484611E5AA2D900BD6435 /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
+		133484651E5AA7FE00BD6435 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		133484731E5AADBF00BD6435 /* MILIKET-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MILIKET-Bridging-Header.h"; path = "../../MILIKET-Bridging-Header.h"; sourceTree = "<group>"; };
 		1345AA1A1E383ADD007A3D65 /* MILIKET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MILIKET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1345AA1D1E383ADD007A3D65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		1345AA1F1E383ADD007A3D65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
@@ -340,6 +352,19 @@
 			path = DrawerController;
 			sourceTree = "<group>";
 		};
+		1334845B1E5AA2D900BD6435 /* FUISegment */ = {
+			isa = PBXGroup;
+			children = (
+				1334845C1E5AA2D900BD6435 /* FUISegmentedControl.h */,
+				1334845D1E5AA2D900BD6435 /* FUISegmentedControl.m */,
+				1334845E1E5AA2D900BD6435 /* UIColor+FlatUI.h */,
+				1334845F1E5AA2D900BD6435 /* UIColor+FlatUI.m */,
+				133484601E5AA2D900BD6435 /* UIImage+FlatUI.h */,
+				133484611E5AA2D900BD6435 /* UIImage+FlatUI.m */,
+			);
+			path = FUISegment;
+			sourceTree = "<group>";
+		};
 		1345AA111E383ADD007A3D65 = {
 			isa = PBXGroup;
 			children = (
@@ -464,6 +489,7 @@
 		1345AAF51E383C9F007A3D65 /* Supporting File */ = {
 			isa = PBXGroup;
 			children = (
+				133484731E5AADBF00BD6435 /* MILIKET-Bridging-Header.h */,
 				132F1F0F1E385E4F0070DB1A /* ViewTracking */,
 				1345AA1D1E383ADD007A3D65 /* AppDelegate.swift */,
 				1345AA1F1E383ADD007A3D65 /* ViewController.swift */,
@@ -494,6 +520,7 @@
 		1345AAFE1E383C9F007A3D65 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1334845B1E5AA2D900BD6435 /* FUISegment */,
 				13D7BF2B1E5581FB0053E6A4 /* Personal */,
 				13D7BF1B1E5576400053E6A4 /* Login */,
 				13F2B7C01E3882120081F0DC /* Help */,
@@ -553,6 +580,7 @@
 				136C0F941E3CD5C200337C8A /* ArticleViewController.swift */,
 				136C0F961E3CD5D200337C8A /* NoteViewController.swift */,
 				136C0F981E3CD5DE00337C8A /* HistoryViewController.swift */,
+				133484651E5AA7FE00BD6435 /* MainViewController.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -941,6 +969,7 @@
 				1345AB251E383C9F007A3D65 /* LoggerSupport.swift in Sources */,
 				133484571E5A744400BD6435 /* MKSideDrawerViewController.swift in Sources */,
 				13D7BF421E55893F0053E6A4 /* ChangePassViewController.swift in Sources */,
+				133484631E5AA2D900BD6435 /* UIColor+FlatUI.m in Sources */,
 				1345AB271E383C9F007A3D65 /* Result.swift in Sources */,
 				1345AA1E1E383ADD007A3D65 /* AppDelegate.swift in Sources */,
 				1345AB3F1E383C9F007A3D65 /* SeparatorTableViewCell.swift in Sources */,
@@ -954,6 +983,7 @@
 				1345AB351E383C9F007A3D65 /* Utility.swift in Sources */,
 				1345AB0A1E383C9F007A3D65 /* Color.swift in Sources */,
 				132F1EFB1E38510F0070DB1A /* Language.swift in Sources */,
+				133484641E5AA2D900BD6435 /* UIImage+FlatUI.m in Sources */,
 				13F2B7C21E38822E0081F0DC /* ContentDetailsHelpView.swift in Sources */,
 				136C0F951E3CD5C200337C8A /* ArticleViewController.swift in Sources */,
 				1345AB221E383C9F007A3D65 /* HUD.swift in Sources */,
@@ -966,9 +996,11 @@
 				13D7BF311E5581FB0053E6A4 /* ChangedPasswordFooterView.swift in Sources */,
 				1345AB231E383C9F007A3D65 /* Image.swift in Sources */,
 				13D7BF351E5581FB0053E6A4 /* PersonalHeaderView.swift in Sources */,
+				133484621E5AA2D900BD6435 /* FUISegmentedControl.m in Sources */,
 				133484511E5A73E900BD6435 /* KYEmbedMainControllerSegue.swift in Sources */,
 				133484501E5A73E900BD6435 /* KYEmbedDrawerControllerSegue.swift in Sources */,
 				13D7BF341E5581FB0053E6A4 /* PersonalFooterView.swift in Sources */,
+				133484661E5AA7FE00BD6435 /* MainViewController.swift in Sources */,
 				1334844F1E5A73E900BD6435 /* KYDrawerController.swift in Sources */,
 				1345AB4A1E383DFD007A3D65 /* GeneralViewController.swift in Sources */,
 				13F2B7BF1E3881DF0081F0DC /* HelpContentDetailsViewController.swift in Sources */,
@@ -1157,6 +1189,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binhanh.MILIKET;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1177,6 +1211,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binhanh.MILIKET;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
