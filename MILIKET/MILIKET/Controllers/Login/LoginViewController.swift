@@ -123,11 +123,11 @@ extension LoginViewController {
         let tabbarVC = UITabBarController()
         
         let naviHistoryVC = UINavigationController(rootViewController: HistoryViewController())
-        let naviNoteVC    = UINavigationController(rootViewController: NoteViewController())
+        let naviHelpVC    = UINavigationController(rootViewController: HelpViewController())
         let naviArticleVC = UINavigationController(rootViewController: ArticleViewController())
-        let naviPersonalVC = UINavigationController(rootViewController: HelpViewController())
+        let naviPersonalVC = UINavigationController(rootViewController: PersonalViewController())
         
-        let viewControllers = [naviArticleVC, naviNoteVC, naviHistoryVC, naviPersonalVC]
+        let viewControllers = [naviArticleVC, naviHelpVC, naviHistoryVC, naviPersonalVC]
         
         viewControllers.forEach { Utility.shared.configureAppearance(navigation: $0) }
         
@@ -140,9 +140,9 @@ extension LoginViewController {
         
         let items: [(title: String, image: UIImage)] = [
             ("Tin tức", Icon.TabBar.article),
-            ("Sổ tay",  Icon.TabBar.noteBook),
+            ("Trợ giúp",  Icon.TabBar.noteBook),
             ("Lịch sử", Icon.TabBar.history),
-            ("Trợ giúp", Icon.Help.Terms)
+            ("Cá nhân", Icon.TabBar.personal)
         ]
         
         

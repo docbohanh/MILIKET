@@ -57,6 +57,13 @@ extension HelpViewController {
     func back(_ sender: UIBarButtonItem) {
         _ = navigationController?.popViewController(animated: true)
     }
+    
+    func menu(_ sender: UIBarButtonItem) {
+        if let drawerController = navigationController?.parent as? KYDrawerController {
+            drawerController.setDrawerState(.opened, animated: true)
+        }
+        
+    }
 }
 
 //-------------------------------------
@@ -143,7 +150,7 @@ extension HelpViewController {
         UIApplication.shared.statusBarStyle = .default
         navigationController?.navigationBar.isTranslucent = false
         title = "Trợ giúp"
-        setupButtonBack()
+        setupLeftBarButton()
         
         table = setupTableView()
         view.addSubview(table)
@@ -169,10 +176,13 @@ extension HelpViewController {
         return tableView
     }
     
-    fileprivate func setupButtonBack() {
-        back = UIBarButtonItem(image: Icon.Nav.Back, style: .plain, target: self, action: #selector(self.back(_:)))
-        back.tintColor = UIColor.Navigation.tint
-        navigationItem.leftBarButtonItem = back
+    fileprivate func setupLeftBarButton() {
+//        back = UIBarButtonItem(image: Icon.Nav.Back, style: .plain, target: self, action: #selector(self.back(_:)))
+//        back.tintColor = UIColor.Navigation.tint
+//        navigationItem.leftBarButtonItem = back
+        
+        let left = setupBarButton(image: Icon.Nav.Menu, selector: #selector(self.menu(_:)), target: self)
+        navigationItem.leftBarButtonItem = left
     }
     
 }

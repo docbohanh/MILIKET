@@ -120,6 +120,49 @@ struct Utility {
         navController.navigationBar.setBackgroundImage(UIImage(), for: .any, barMetrics: .default)
         navController.navigationBar.isTranslucent = false
     }
+    
+    ///
+    func setupTabBarController() -> UITabBarController {
+        
+        let tabbarVC = UITabBarController()
+        
+        let naviHistoryVC = UINavigationController(rootViewController: HistoryViewController())
+        let naviHelpVC    = UINavigationController(rootViewController: HelpViewController())
+        let naviArticleVC = UINavigationController(rootViewController: ArticleViewController())
+        let naviPersonalVC = UINavigationController(rootViewController: PersonalViewController())
+        
+        let viewControllers = [naviArticleVC, naviHelpVC, naviHistoryVC, naviPersonalVC]
+        
+        viewControllers.forEach { Utility.shared.configureAppearance(navigation: $0) }
+        
+        tabbarVC.viewControllers = viewControllers
+        
+        tabbarVC.tabBar.barStyle = .default
+        tabbarVC.tabBar.backgroundColor = UIColor.Navigation.main
+        tabbarVC.tabBar.barTintColor = UIColor.white.alpha(0.8)
+        tabbarVC.tabBar.isTranslucent = false
+        
+        let items: [(title: String, image: UIImage)] = [
+            ("Tin tức", Icon.TabBar.article),
+            ("Trợ giúp",  Icon.TabBar.noteBook),
+            ("Lịch sử", Icon.TabBar.history),
+            ("Cá nhân", Icon.TabBar.personal)
+        ]
+        
+        
+        for (i, item)  in tabbarVC.tabBar.items!.enumerated() {
+            item.selectedImage = items[i].image.tint(UIColor.main)
+            item.image = items[i].image.tint(UIColor.lightGray)
+            item.title = items[i].title
+            
+            item.setTitleTextAttributes([
+                NSFontAttributeName: UIFont(name: FontType.latoSemibold.., size: FontSize.small++)!], for: .normal)
+            
+        }
+        
+        return tabbarVC
+    }
+
 }
 
 struct AppConfig {

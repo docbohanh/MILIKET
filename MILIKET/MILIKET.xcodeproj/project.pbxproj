@@ -20,6 +20,14 @@
 		132F1F151E385E4F0070DB1A /* basao_booking_help_image_2_vn.png in Resources */ = {isa = PBXBuildFile; fileRef = 132F1F111E385E4F0070DB1A /* basao_booking_help_image_2_vn.png */; };
 		132F1F161E385E4F0070DB1A /* basao_booking_help_image_3_vn.png in Resources */ = {isa = PBXBuildFile; fileRef = 132F1F121E385E4F0070DB1A /* basao_booking_help_image_3_vn.png */; };
 		132F1F171E385E4F0070DB1A /* basao_booking_help_image_4_vn.png in Resources */ = {isa = PBXBuildFile; fileRef = 132F1F131E385E4F0070DB1A /* basao_booking_help_image_4_vn.png */; };
+		1334844F1E5A73E900BD6435 /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334844C1E5A73E900BD6435 /* KYDrawerController.swift */; };
+		133484501E5A73E900BD6435 /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334844D1E5A73E900BD6435 /* KYEmbedDrawerControllerSegue.swift */; };
+		133484511E5A73E900BD6435 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334844E1E5A73E900BD6435 /* KYEmbedMainControllerSegue.swift */; };
+		133484541E5A73F500BD6435 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133484521E5A73F500BD6435 /* NewsViewController.swift */; };
+		133484551E5A73F500BD6435 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133484531E5A73F500BD6435 /* VideosViewController.swift */; };
+		133484571E5A744400BD6435 /* MKSideDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133484561E5A744400BD6435 /* MKSideDrawerViewController.swift */; };
+		133484591E5A75C400BD6435 /* PagingMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133484581E5A75C400BD6435 /* PagingMenuController.framework */; };
+		1334845A1E5A75C400BD6435 /* PagingMenuController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 133484581E5A75C400BD6435 /* PagingMenuController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1345AA1E1E383ADD007A3D65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345AA1D1E383ADD007A3D65 /* AppDelegate.swift */; };
 		1345AA201E383ADD007A3D65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345AA1F1E383ADD007A3D65 /* ViewController.swift */; };
 		1345AA231E383ADD007A3D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1345AA211E383ADD007A3D65 /* Main.storyboard */; };
@@ -148,6 +156,7 @@
 				1345AAB01E383BEB007A3D65 /* SwiftyUserDefaults.framework in Embed Frameworks */,
 				1345AA9A1E383BEB007A3D65 /* Reachability.framework in Embed Frameworks */,
 				1345AA881E383BEB007A3D65 /* JGProgressHUD.framework in Embed Frameworks */,
+				1334845A1E5A75C400BD6435 /* PagingMenuController.framework in Embed Frameworks */,
 				132F1F001E385BB50070DB1A /* RxSwift.framework in Embed Frameworks */,
 				132F1F061E385C490070DB1A /* Realm.framework in Embed Frameworks */,
 			);
@@ -170,6 +179,13 @@
 		132F1F111E385E4F0070DB1A /* basao_booking_help_image_2_vn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basao_booking_help_image_2_vn.png; sourceTree = "<group>"; };
 		132F1F121E385E4F0070DB1A /* basao_booking_help_image_3_vn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basao_booking_help_image_3_vn.png; sourceTree = "<group>"; };
 		132F1F131E385E4F0070DB1A /* basao_booking_help_image_4_vn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basao_booking_help_image_4_vn.png; sourceTree = "<group>"; };
+		1334844C1E5A73E900BD6435 /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDrawerController.swift; sourceTree = "<group>"; };
+		1334844D1E5A73E900BD6435 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		1334844E1E5A73E900BD6435 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		133484521E5A73F500BD6435 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		133484531E5A73F500BD6435 /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		133484561E5A744400BD6435 /* MKSideDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKSideDrawerViewController.swift; sourceTree = "<group>"; };
+		133484581E5A75C400BD6435 /* PagingMenuController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PagingMenuController.framework; path = Carthage/Build/iOS/PagingMenuController.framework; sourceTree = "<group>"; };
 		1345AA1A1E383ADD007A3D65 /* MILIKET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MILIKET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1345AA1D1E383ADD007A3D65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		1345AA1F1E383ADD007A3D65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
@@ -264,6 +280,7 @@
 				1345AA711E383BEB007A3D65 /* CleanroomLogger.framework in Frameworks */,
 				1345AA791E383BEB007A3D65 /* Eureka.framework in Frameworks */,
 				1345AA8F1E383BEB007A3D65 /* NVActivityIndicatorView.framework in Frameworks */,
+				133484591E5A75C400BD6435 /* PagingMenuController.framework in Frameworks */,
 				132F1F051E385C490070DB1A /* Realm.framework in Frameworks */,
 				1345AA971E383BEB007A3D65 /* Popover.framework in Frameworks */,
 				132F1F021E385C170070DB1A /* RealmSwift.framework in Frameworks */,
@@ -311,6 +328,16 @@
 				132F1F131E385E4F0070DB1A /* basao_booking_help_image_4_vn.png */,
 			);
 			path = ViewTracking;
+			sourceTree = "<group>";
+		};
+		1334844B1E5A73E900BD6435 /* DrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				1334844C1E5A73E900BD6435 /* KYDrawerController.swift */,
+				1334844D1E5A73E900BD6435 /* KYEmbedDrawerControllerSegue.swift */,
+				1334844E1E5A73E900BD6435 /* KYEmbedMainControllerSegue.swift */,
+			);
+			path = DrawerController;
 			sourceTree = "<group>";
 		};
 		1345AA111E383ADD007A3D65 = {
@@ -370,6 +397,7 @@
 		1345AAB21E383BF5007A3D65 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				133484581E5A75C400BD6435 /* PagingMenuController.framework */,
 				132F1F041E385C490070DB1A /* Realm.framework */,
 				132F1F011E385C170070DB1A /* RealmSwift.framework */,
 				132F1EFE1E385BB50070DB1A /* RxSwift.framework */,
@@ -399,6 +427,7 @@
 		1345AAB91E383C9F007A3D65 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1334844B1E5A73E900BD6435 /* DrawerController */,
 				13D7BF361E55873B0053E6A4 /* Personal */,
 				13D7BF171E5537DB0053E6A4 /* Login */,
 				136C0F911E3CD3C200337C8A /* Custom */,
@@ -488,6 +517,7 @@
 		1345AB041E383C9F007A3D65 /* MateriaKit */ = {
 			isa = PBXGroup;
 			children = (
+				133484561E5A744400BD6435 /* MKSideDrawerViewController.swift */,
 				1345AB051E383C9F007A3D65 /* MKButton.swift */,
 				1345AB061E383C9F007A3D65 /* MKColor.swift */,
 				1345AB071E383C9F007A3D65 /* MKLayer.swift */,
@@ -518,6 +548,8 @@
 		136C0F911E3CD3C200337C8A /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				133484521E5A73F500BD6435 /* NewsViewController.swift */,
+				133484531E5A73F500BD6435 /* VideosViewController.swift */,
 				136C0F941E3CD5C200337C8A /* ArticleViewController.swift */,
 				136C0F961E3CD5D200337C8A /* NoteViewController.swift */,
 				136C0F981E3CD5DE00337C8A /* HistoryViewController.swift */,
@@ -901,11 +933,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133484551E5A73F500BD6435 /* VideosViewController.swift in Sources */,
 				136C0F991E3CD5DE00337C8A /* HistoryViewController.swift in Sources */,
 				136C0F971E3CD5D200337C8A /* NoteViewController.swift in Sources */,
 				1345AB421E383C9F007A3D65 /* MKLayer.swift in Sources */,
 				1345AA201E383ADD007A3D65 /* ViewController.swift in Sources */,
 				1345AB251E383C9F007A3D65 /* LoggerSupport.swift in Sources */,
+				133484571E5A744400BD6435 /* MKSideDrawerViewController.swift in Sources */,
 				13D7BF421E55893F0053E6A4 /* ChangePassViewController.swift in Sources */,
 				1345AB271E383C9F007A3D65 /* Result.swift in Sources */,
 				1345AA1E1E383ADD007A3D65 /* AppDelegate.swift in Sources */,
@@ -916,6 +950,7 @@
 				1345AB261E383C9F007A3D65 /* ReachabilitySupport.swift in Sources */,
 				137D3E2E1E3DDFD7003D35C0 /* ArticleTableViewCell.swift in Sources */,
 				13D7BF141E552E800053E6A4 /* RealmAccount.swift in Sources */,
+				133484541E5A73F500BD6435 /* NewsViewController.swift in Sources */,
 				1345AB351E383C9F007A3D65 /* Utility.swift in Sources */,
 				1345AB0A1E383C9F007A3D65 /* Color.swift in Sources */,
 				132F1EFB1E38510F0070DB1A /* Language.swift in Sources */,
@@ -931,7 +966,10 @@
 				13D7BF311E5581FB0053E6A4 /* ChangedPasswordFooterView.swift in Sources */,
 				1345AB231E383C9F007A3D65 /* Image.swift in Sources */,
 				13D7BF351E5581FB0053E6A4 /* PersonalHeaderView.swift in Sources */,
+				133484511E5A73E900BD6435 /* KYEmbedMainControllerSegue.swift in Sources */,
+				133484501E5A73E900BD6435 /* KYEmbedDrawerControllerSegue.swift in Sources */,
 				13D7BF341E5581FB0053E6A4 /* PersonalFooterView.swift in Sources */,
+				1334844F1E5A73E900BD6435 /* KYDrawerController.swift in Sources */,
 				1345AB4A1E383DFD007A3D65 /* GeneralViewController.swift in Sources */,
 				13F2B7BF1E3881DF0081F0DC /* HelpContentDetailsViewController.swift in Sources */,
 				1345AB471E383DC2007A3D65 /* HelpViewController.swift in Sources */,
@@ -1112,6 +1150,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MILIKET/Framework",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = MILIKET/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1131,6 +1170,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MILIKET/Framework",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = MILIKET/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

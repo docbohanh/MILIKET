@@ -29,11 +29,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let GMSServiceKey = "AIzaSyDGP7n2-4MKQjQ6ucNROKPDrjvWLM5etfo"
         GMSServices.provideAPIKey(GMSServiceKey)
         
-        let navigationController = setupNavigationController()
+//        let navigationController = setupNavigationController()
 //        let tabBarVC = setupTabBarController()
         
+        let mainViewController = UINavigationController(rootViewController: ArticleViewController())
+        Utility.shared.configureAppearance(navigation: mainViewController)
+        let drawerViewController = HelpViewController()
+        
+        let drawerController = KYDrawerController(drawerDirection: .left, drawerWidth: UIScreen.main.bounds.width - 64)
+        drawerController.mainViewController = mainViewController
+        drawerController.drawerViewController = drawerViewController
+        
         if let window = window {
-            window.rootViewController = navigationController
+            window.rootViewController = drawerController
             window.makeKeyAndVisible()
         }
         
