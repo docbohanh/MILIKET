@@ -29,19 +29,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let GMSServiceKey = "AIzaSyDGP7n2-4MKQjQ6ucNROKPDrjvWLM5etfo"
         GMSServices.provideAPIKey(GMSServiceKey)
         
-//        let navigationController = setupNavigationController()
 //        let tabBarVC = setupTabBarController()
         
-        let mainViewController = UINavigationController(rootViewController: ArticleViewController())
-        Utility.shared.configureAppearance(navigation: mainViewController)
-        let drawerViewController = HelpViewController()
+//        let mainViewController = UINavigationController(rootViewController: ArticleViewController())
+//        Utility.shared.configureAppearance(navigation: mainViewController)
+//        let drawerViewController = HelpViewController()
+//        
+//        let drawerController = KYDrawerController(drawerDirection: .left, drawerWidth: UIScreen.main.bounds.width - 64)
+//        drawerController.mainViewController = mainViewController
+//        drawerController.drawerViewController = drawerViewController
         
-        let drawerController = KYDrawerController(drawerDirection: .left, drawerWidth: UIScreen.main.bounds.width - 64)
-        drawerController.mainViewController = mainViewController
-        drawerController.drawerViewController = drawerViewController
+        let mainVC = MainViewController()
+        let navigationVC = setupNavigationController(withRoot: mainVC)
+        Utility.shared.configureAppearance(navigation: navigationVC)
         
         if let window = window {
-            window.rootViewController = drawerController
+            window.rootViewController = navigationVC
             window.makeKeyAndVisible()
         }
         
@@ -75,9 +78,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     /**
      Setup Navigation
      */
-    fileprivate func setupNavigationController() -> UINavigationController {
+    fileprivate func setupNavigationController(withRoot mainVC: UIViewController) -> UINavigationController {
         
-        let mainVC = LoginViewController()
         let navigationController = UINavigationController(rootViewController: mainVC)
         Utility.shared.configureAppearance(navigation: navigationController)
         

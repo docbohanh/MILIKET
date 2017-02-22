@@ -9,6 +9,7 @@
 import UIKit
 import SnapKit
 import PHExtensions
+import CleanroomLogger
 
 class MainViewController: GeneralViewController {
     enum Size: CGFloat {
@@ -16,7 +17,7 @@ class MainViewController: GeneralViewController {
     }
     
     var scrollView: UIScrollView!
-    var segment: FUISegmentedControl!
+    var segment: TwicketSegmentedControl!
     
     enum SegmentPosition: Int {
         case first = 0, second
@@ -73,30 +74,42 @@ extension MainViewController {
     
 }
 
+///
+extension MainViewController: TwicketSegmentedControlDelegate {
+    func didSelect(_ segmentIndex: Int) {
+        Log.message(.debug, message: "segment: \(segmentIndex)")
+    }
+}
+
 //-------------------------------------
 // MARK: - SETUP
 //-------------------------------------
 extension MainViewController {
     func setupAllSubviews() {
+        view.backgroundColor = UIColor.MKColor.Green.P500
+        title = "Home"
         
+        segment = setupSegmentControl()
+        view.addSubview(segment)
         
     }
     
     func setupAllConstraints() {
-                
-//        segment.snp.makeConstraints { (make) in
-//            make.centerX.equalTo(view)
-//            make.left.top.right.equalTo(Size.padding5..)
-//            make.height.equalTo(Size.segment..)
-//        }
-//        
-//        scrollView.snp.makeConstraints { (make) in
-//            make.left.width.bottom.equalTo(view)
-//            make.top.equalTo(segment.snp.bottom).inset(Size.padding5..)
-//        }
+        
         
     }
     
-    
+    func setupSegmentControl() -> TwicketSegmentedControl {
+        let frame = CGRect(x: 5, y: 5, width: view.frame.width - 10, height: 40)
+        let segment = TwicketSegmentedControl(frame: frame)
+        
+        let titles = ["First", "Second", "Third"]
+        segment.setSegmentItems(titles)
+        segment.delegate = self
+        
+        segment.sliderBackgroundColor = .main
+        
+        return segment
+    }
     
 }

@@ -115,6 +115,13 @@
 		13D7BF351E5581FB0053E6A4 /* PersonalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF301E5581FB0053E6A4 /* PersonalHeaderView.swift */; };
 		13D7BF401E5587C20053E6A4 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF3F1E5587C20053E6A4 /* PersonalViewController.swift */; };
 		13D7BF421E55893F0053E6A4 /* ChangePassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7BF411E55893F0053E6A4 /* ChangePassViewController.swift */; };
+		13EF32381E5D92AA00777721 /* MXParallaxHeader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF32341E5D92AA00777721 /* MXParallaxHeader.framework */; };
+		13EF32391E5D92AA00777721 /* MXParallaxHeader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF32341E5D92AA00777721 /* MXParallaxHeader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		13EF323A1E5D92AA00777721 /* MXScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF32351E5D92AA00777721 /* MXScrollView.framework */; };
+		13EF323B1E5D92AA00777721 /* MXScrollView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF32351E5D92AA00777721 /* MXScrollView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		13EF323E1E5D92AA00777721 /* XLActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF32371E5D92AA00777721 /* XLActionController.framework */; };
+		13EF323F1E5D92AA00777721 /* XLActionController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13EF32371E5D92AA00777721 /* XLActionController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		13EF32411E5D9D4F00777721 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF32401E5D9D4F00777721 /* CustomSegmentControl.swift */; };
 		13F2B7BF1E3881DF0081F0DC /* HelpContentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2B7BE1E3881DF0081F0DC /* HelpContentDetailsViewController.swift */; };
 		13F2B7C21E38822E0081F0DC /* ContentDetailsHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2B7C11E38822E0081F0DC /* ContentDetailsHelpView.swift */; };
 		6FF723C4B16B3DABFCFA10B2 /* Pods_MILIKETUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1615A782845F3CC0A161C79 /* Pods_MILIKETUITests.framework */; };
@@ -147,8 +154,11 @@
 			dstSubfolderSpec = 10;
 			files = (
 				1345AA721E383BEB007A3D65 /* CleanroomLogger.framework in Embed Frameworks */,
+				13EF32391E5D92AA00777721 /* MXParallaxHeader.framework in Embed Frameworks */,
 				1345AA7A1E383BEB007A3D65 /* Eureka.framework in Embed Frameworks */,
+				13EF323B1E5D92AA00777721 /* MXScrollView.framework in Embed Frameworks */,
 				132F1F031E385C170070DB1A /* RealmSwift.framework in Embed Frameworks */,
+				13EF323F1E5D92AA00777721 /* XLActionController.framework in Embed Frameworks */,
 				1345AA901E383BEB007A3D65 /* NVActivityIndicatorView.framework in Embed Frameworks */,
 				1345AA981E383BEB007A3D65 /* Popover.framework in Embed Frameworks */,
 				1345AAAC1E383BEB007A3D65 /* SnapKit.framework in Embed Frameworks */,
@@ -276,6 +286,10 @@
 		13D7BF301E5581FB0053E6A4 /* PersonalHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalHeaderView.swift; sourceTree = "<group>"; };
 		13D7BF3F1E5587C20053E6A4 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
 		13D7BF411E55893F0053E6A4 /* ChangePassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePassViewController.swift; sourceTree = "<group>"; };
+		13EF32341E5D92AA00777721 /* MXParallaxHeader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MXParallaxHeader.framework; path = Carthage/Build/iOS/MXParallaxHeader.framework; sourceTree = "<group>"; };
+		13EF32351E5D92AA00777721 /* MXScrollView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MXScrollView.framework; path = Carthage/Build/iOS/MXScrollView.framework; sourceTree = "<group>"; };
+		13EF32371E5D92AA00777721 /* XLActionController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XLActionController.framework; path = Carthage/Build/iOS/XLActionController.framework; sourceTree = "<group>"; };
+		13EF32401E5D9D4F00777721 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
 		13F2B7BE1E3881DF0081F0DC /* HelpContentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpContentDetailsViewController.swift; sourceTree = "<group>"; };
 		13F2B7C11E38822E0081F0DC /* ContentDetailsHelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentDetailsHelpView.swift; sourceTree = "<group>"; };
 		3227BAB7E5D7F231209AD19D /* Pods-MILIKETTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MILIKETTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MILIKETTests/Pods-MILIKETTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -295,11 +309,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				132F1EFF1E385BB50070DB1A /* RxSwift.framework in Frameworks */,
+				13EF323A1E5D92AA00777721 /* MXScrollView.framework in Frameworks */,
 				1345AA711E383BEB007A3D65 /* CleanroomLogger.framework in Frameworks */,
 				1345AA791E383BEB007A3D65 /* Eureka.framework in Frameworks */,
 				1345AA8F1E383BEB007A3D65 /* NVActivityIndicatorView.framework in Frameworks */,
 				133484591E5A75C400BD6435 /* PagingMenuController.framework in Frameworks */,
+				13EF32381E5D92AA00777721 /* MXParallaxHeader.framework in Frameworks */,
 				132F1F051E385C490070DB1A /* Realm.framework in Frameworks */,
+				13EF323E1E5D92AA00777721 /* XLActionController.framework in Frameworks */,
 				1345AA971E383BEB007A3D65 /* Popover.framework in Frameworks */,
 				132F1F021E385C170070DB1A /* RealmSwift.framework in Frameworks */,
 				1345AAAB1E383BEB007A3D65 /* SnapKit.framework in Frameworks */,
@@ -383,6 +400,7 @@
 			isa = PBXGroup;
 			children = (
 				133484911E5AF3EC00BD6435 /* SideBarHeaderView.swift */,
+				13EF32401E5D9D4F00777721 /* CustomSegmentControl.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -444,6 +462,9 @@
 		1345AAB21E383BF5007A3D65 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				13EF32341E5D92AA00777721 /* MXParallaxHeader.framework */,
+				13EF32351E5D92AA00777721 /* MXScrollView.framework */,
+				13EF32371E5D92AA00777721 /* XLActionController.framework */,
 				133484581E5A75C400BD6435 /* PagingMenuController.framework */,
 				132F1F041E385C490070DB1A /* Realm.framework */,
 				132F1F011E385C170070DB1A /* RealmSwift.framework */,
@@ -474,6 +495,7 @@
 		1345AAB91E383C9F007A3D65 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1345AA1D1E383ADD007A3D65 /* AppDelegate.swift */,
 				133484791E5AC8B700BD6435 /* DataSource */,
 				1334844B1E5A73E900BD6435 /* DrawerController */,
 				13D7BF361E55873B0053E6A4 /* Personal */,
@@ -513,7 +535,6 @@
 			isa = PBXGroup;
 			children = (
 				132F1F0F1E385E4F0070DB1A /* ViewTracking */,
-				1345AA1D1E383ADD007A3D65 /* AppDelegate.swift */,
 				1345AA1F1E383ADD007A3D65 /* ViewController.swift */,
 				1345AA211E383ADD007A3D65 /* Main.storyboard */,
 				1345AA241E383ADD007A3D65 /* Assets.xcassets */,
@@ -986,6 +1007,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13EF32411E5D9D4F00777721 /* CustomSegmentControl.swift in Sources */,
 				133484551E5A73F500BD6435 /* VideosViewController.swift in Sources */,
 				136C0F991E3CD5DE00337C8A /* HistoryViewController.swift in Sources */,
 				136C0F971E3CD5D200337C8A /* NoteViewController.swift in Sources */,
