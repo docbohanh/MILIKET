@@ -7,29 +7,61 @@
 //
 
 import UIKit
+import SnapKit
+import PHExtensions
 
-class NewsViewController: UIViewController {
-
+class NewsViewController: GeneralViewController {
+    fileprivate enum Size: CGFloat {
+        case padding15 = 15, padding5 = 5, padding10 = 10, button = 44
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        setupAllSubviews()
+        view.setNeedsUpdateConstraints()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func updateViewConstraints() {
+        if !didSetupConstraints {
+            setupAllConstraints()
+            didSetupConstraints = true
+        }
+        
+        super.updateViewConstraints()
     }
-    */
-
+    
 }
+
+//------------------------------
+//MARK: SELECTOR
+//------------------------------
+extension NewsViewController {
+    
+}
+
+//------------------------------
+//MARK: PRIVATE METHOD
+//------------------------------
+extension NewsViewController {
+    
+}
+
+//------------------------------
+//MARK: SETUP VIEW
+//------------------------------
+extension NewsViewController {
+    func setupAllSubviews() {
+        view.backgroundColor = .white
+    }
+    
+    func setupAllConstraints() {
+        
+    }
+}
+

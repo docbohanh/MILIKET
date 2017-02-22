@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DGElasticPullToRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MILIKET.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,12 +27,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1234D65C10E8134E15204C900EC14CE8</key>
+		<key>115824B7CB2E76E5ACB836A251E79404</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>3EB3DD526945A0F66D5F142BD0F33B8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5435ABC9FB909DEF43F70A1BDF68F17</key>
 		<dict>
 			<key>primary</key>
 			<true/>

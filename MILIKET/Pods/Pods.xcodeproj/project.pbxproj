@@ -7,73 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11BA64BC0B2FE8DDB41883B7241A8C49 /* DGElasticPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 999C239D60D768793B2F20D4AD18FDFF /* DGElasticPullToRefresh-dummy.m */; };
 		17D5985AE7B3A21BE891802A24B9216C /* Pods-MILIKETUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC8B94AE109DB86202CA2A8446A259C /* Pods-MILIKETUITests-dummy.m */; };
-		2E1BB5C1A08D951F770255D654CF0525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		34CE09D5E6DC6AF6C21C82AA3C64C6DF /* Pods-MILIKET-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCF8ECD8B93E3E7235B6C0AD9C54B5A /* Pods-MILIKET-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20C5E87C1DF07DEA65CD74B8D07D6D1C /* DGElasticPullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB359A1ECEBC8250FEAC85405818373 /* DGElasticPullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E1BB5C1A08D951F770255D654CF0525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		4018C1746284F6262411EC1EE8F9FC26 /* Pods-MILIKETUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 127999DB403F57B18DD7B8106323E95B /* Pods-MILIKETUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		464CC2C5893FCA388C44AC2ADDC8490F /* Pods-MILIKET-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCF8ECD8B93E3E7235B6C0AD9C54B5A /* Pods-MILIKET-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501198AA5B6723D71C0194BAD075BF02 /* DGElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49C2FB5E59AED2652F8E5BC355FA67 /* DGElasticPullToRefreshView.swift */; };
+		532DE1A7CB187F3FD759E44055B6B261 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 		6328C40F65F873A05E028376343867CB /* Pods-MILIKETTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A25AA8934A7498C2560C2C92C7D21E02 /* Pods-MILIKETTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B83D1941EA7A96AFE2B045A8D610376 /* Pods-MILIKET-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB890825739BA8A8347F8AB32E700D1 /* Pods-MILIKET-dummy.m */; };
-		8E2F68159D2A4AD341CC4686829C0619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6B058FB2BD6B6B55995F631EE4B61D8E /* DGElasticPullToRefreshExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441CC0867720E2900545F36D549E7D /* DGElasticPullToRefreshExtensions.swift */; };
+		7A88BF95853A69E550E9F63A060BED12 /* DGElasticPullToRefreshConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495022D5F991923F7BF6EEA356B3A1A5 /* DGElasticPullToRefreshConstants.swift */; };
+		8E2F68159D2A4AD341CC4686829C0619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		93E0619E7E34DE7B1C3216972F41B99F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		95D14013787B7AB3201CB1D42FEB0160 /* Pods-MILIKET-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB890825739BA8A8347F8AB32E700D1 /* Pods-MILIKET-dummy.m */; };
+		B2F9711D635766F4754D415B41FFC818 /* DGElasticPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674588A7C8831A68691883C5305500F9 /* DGElasticPullToRefreshLoadingView.swift */; };
 		C5D684A6622D64BADDFA5CFACFE84EC9 /* Pods-MILIKETTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA70D7024C66D8E7EB3AEC31B9B77E4 /* Pods-MILIKETTests-dummy.m */; };
-		FB90CB468ABBD0B835FD2B165FCCA456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EA11DE28E302BE1440B52EE4AEB80FD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		ECDF2C04EED904A4AFC64DED8EA45544 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67BEE0FD33508DB78AA9D91920A9DC /* DGElasticPullToRefreshLoadingViewCircle.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		748AC7D3CCED5AB5B59C40532D83946E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115824B7CB2E76E5ACB836A251E79404;
+			remoteInfo = DGElasticPullToRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0225388347389797683A1F4A74ED789A /* Pods_MILIKET.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MILIKET.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E2054D8344CFBB3A78253D9F201FF2 /* Pods_MILIKETTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MILIKETTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0717A53FA3146A1C539652799CFFFCB1 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		0DE100E9CBBB31AC63FDC6D23DDE8548 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		127999DB403F57B18DD7B8106323E95B /* Pods-MILIKETUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MILIKETUITests-umbrella.h"; sourceTree = "<group>"; };
+		18302076959B2813AA43B343E41DEC0E /* Pods_MILIKET.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MILIKET.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2208495A3FCD23913B87D029910AE715 /* Pods-MILIKETUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MILIKETUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		26176370B60D8E4B29E18A24C6F08A33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BA79268F5604ABD81CD8E7AE32CC668 /* Pods-MILIKETTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MILIKETTests.modulemap"; sourceTree = "<group>"; };
 		37F7EE5DDB361E2C24B0F8EF690693EF /* Pods-MILIKETTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MILIKETTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38F4DAE12D928BD2889B90B3F8151F43 /* Pods_MILIKETTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MILIKETTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45900090F9B93055CDCF653F6EB92351 /* DGElasticPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DGElasticPullToRefresh.xcconfig; sourceTree = "<group>"; };
+		495022D5F991923F7BF6EEA356B3A1A5 /* DGElasticPullToRefreshConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshConstants.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshConstants.swift; sourceTree = "<group>"; };
 		4C897692601135800FCD2B061D44B3AB /* Pods-MILIKETTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKETTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4CAAE47AB97055A9FBB1B0273F37A423 /* Pods_MILIKETUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MILIKETUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D97800603A3260286DC79D2C8D80768 /* Pods-MILIKETUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKETUITests-frameworks.sh"; sourceTree = "<group>"; };
 		4DB890825739BA8A8347F8AB32E700D1 /* Pods-MILIKET-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MILIKET-dummy.m"; sourceTree = "<group>"; };
 		5010B23513EE32E3BFA48E9CC2A3D876 /* Pods-MILIKET.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MILIKET.modulemap"; sourceTree = "<group>"; };
+		5A441CC0867720E2900545F36D549E7D /* DGElasticPullToRefreshExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshExtensions.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshExtensions.swift; sourceTree = "<group>"; };
 		5C919250C18DFDC07959EFF1120B49C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61539B022B5EB94FDA0FF6DA70B2EDB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		660455AF5982365C8722D95592C965C8 /* Pods-MILIKET-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKET-resources.sh"; sourceTree = "<group>"; };
+		674588A7C8831A68691883C5305500F9 /* DGElasticPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshLoadingView.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
 		6D011F7820CE5A94F4E0BD9293840410 /* Pods-MILIKETTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKETTests-resources.sh"; sourceTree = "<group>"; };
+		6E49C2FB5E59AED2652F8E5BC355FA67 /* DGElasticPullToRefreshView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshView.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshView.swift; sourceTree = "<group>"; };
+		72C9EF6A7ECD3C80DF12AD8FB66FD750 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		76CF5E50277EB1E426C0A0D2150445C0 /* Pods-MILIKETUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKETUITests-resources.sh"; sourceTree = "<group>"; };
 		7810567EB334023163A96C3A7110BA5F /* Pods-MILIKETTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKETTests-frameworks.sh"; sourceTree = "<group>"; };
-		7A96742FFAC6754BBC1ABD7D4638EAF1 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Subspecs/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		804B38BFCFC3CA74EC69B5E0EACBBA54 /* Pods-MILIKETUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MILIKETUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84C65D23F065404D4474E09631A97A42 /* DGElasticPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DGElasticPullToRefresh.modulemap; sourceTree = "<group>"; };
 		86DE9D6A5DBB60A054DFF0EEA2251550 /* Pods-MILIKET-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MILIKET-frameworks.sh"; sourceTree = "<group>"; };
 		8AD4E6DF25F9AECD97CA1FD69B62AFB4 /* Pods-MILIKETUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MILIKETUITests.modulemap"; sourceTree = "<group>"; };
 		8CCF8ECD8B93E3E7235B6C0AD9C54B5A /* Pods-MILIKET-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MILIKET-umbrella.h"; sourceTree = "<group>"; };
 		91A0524DD42F3217CA5895BBC4365C4E /* Pods-MILIKETUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKETUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BC0EEC24B7854CA83D1BB6A57028B31 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Subspecs/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		9516EE3A45981939132A4B906682012C /* Pods_MILIKETUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MILIKETUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		999C239D60D768793B2F20D4AD18FDFF /* DGElasticPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DGElasticPullToRefresh-dummy.m"; sourceTree = "<group>"; };
+		9B9B134ADA41DDF2B567126006748FEB /* DGElasticPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGElasticPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC5BB6981DAF52B37625031419F5352 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		A25AA8934A7498C2560C2C92C7D21E02 /* Pods-MILIKETTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MILIKETTests-umbrella.h"; sourceTree = "<group>"; };
 		ABDF77B01D8EB3F3B0B684E5A6AAB769 /* Pods-MILIKET.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKET.release.xcconfig"; sourceTree = "<group>"; };
 		B4B450F53DC3DCE3BFF19E6D9781AC71 /* Pods-MILIKET-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MILIKET-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA7BCF5A9E796E955637CE3E47AA2D1F /* Pods-MILIKET-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MILIKET-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BEC993795583B87B1EC31F69AA6F331A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Subspecs/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		C52C45FE242F9E621FD9178D3D9985BE /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		C96141F57DFFF01D4222E0FC16D94E10 /* Pods-MILIKET.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKET.debug.xcconfig"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB19614559A61B23916FBC0E3D47D3F7 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		CCA70D7024C66D8E7EB3AEC31B9B77E4 /* Pods-MILIKETTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MILIKETTests-dummy.m"; sourceTree = "<group>"; };
+		CE67BEE0FD33508DB78AA9D91920A9DC /* DGElasticPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshLoadingViewCircle.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
 		DEC8B94AE109DB86202CA2A8446A259C /* Pods-MILIKETUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MILIKETUITests-dummy.m"; sourceTree = "<group>"; };
 		E572D43D7B136068A6FDC030046171EF /* Pods-MILIKETUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKETUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E693BDFE88449ADF1841A967EA2BE4ED /* DGElasticPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGElasticPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
 		E8C557A072EDCFACF38FA74E289345D7 /* Pods-MILIKETTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MILIKETTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEB359A1ECEBC8250FEAC85405818373 /* DGElasticPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGElasticPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
 		EEC74EFB3EB9E0BF64948D93DBDC5841 /* Pods-MILIKETTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MILIKETTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43CE9FE43E949DF3A11A993F2BB7E135 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB90CB468ABBD0B835FD2B165FCCA456 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63F33C2556D5B1FE762A30774C174714 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2E1BB5C1A08D951F770255D654CF0525 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994C1E6EBCF1B1ADD134A94B45135C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E0619E7E34DE7B1C3216972F41B99F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E138A11AB568FDD962F892987F6F048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA11DE28E302BE1440B52EE4AEB80FD2 /* Foundation.framework in Frameworks */,
+				532DE1A7CB187F3FD759E44055B6B261 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,29 +129,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03853DF8004FCD538DE122EB2387F73D /* Frameworks */ = {
+		2021D4E25EC1D75A511731ACFFA36604 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A96742FFAC6754BBC1ABD7D4638EAF1 /* GoogleMapsBase.framework */,
+				9EC5BB6981DAF52B37625031419F5352 /* GoogleMapsBase.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1418B056D31B27EE2CEBA552B5ADFE56 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				03853DF8004FCD538DE122EB2387F73D /* Frameworks */,
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				1418B056D31B27EE2CEBA552B5ADFE56 /* Base */,
-				6BC99F081C91F80679CFA5DDC6213D57 /* Maps */,
-			);
-			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
 		2B7FE4790CF8645329C68766B569D79B /* Targets Support Files */ = {
@@ -123,22 +147,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3AEC177709F5E2CA8647760385A95C03 /* Resources */ = {
+		30DAC80E6F5272E0BBE72DF817FD1422 /* DGElasticPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				0717A53FA3146A1C539652799CFFFCB1 /* GoogleMaps.bundle */,
+				495022D5F991923F7BF6EEA356B3A1A5 /* DGElasticPullToRefreshConstants.swift */,
+				5A441CC0867720E2900545F36D549E7D /* DGElasticPullToRefreshExtensions.swift */,
+				674588A7C8831A68691883C5305500F9 /* DGElasticPullToRefreshLoadingView.swift */,
+				CE67BEE0FD33508DB78AA9D91920A9DC /* DGElasticPullToRefreshLoadingViewCircle.swift */,
+				6E49C2FB5E59AED2652F8E5BC355FA67 /* DGElasticPullToRefreshView.swift */,
+				A57C7FC8D49A798DB9E906451ECCB402 /* Support Files */,
 			);
-			name = Resources;
+			path = DGElasticPullToRefresh;
 			sourceTree = "<group>";
 		};
-		3B49FF2723CE7D3D8626CA68BCED1785 /* Products */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0225388347389797683A1F4A74ED789A /* Pods_MILIKET.framework */,
-				04E2054D8344CFBB3A78253D9F201FF2 /* Pods_MILIKETTests.framework */,
-				4CAAE47AB97055A9FBB1B0273F37A423 /* Pods_MILIKETUITests.framework */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4559C7A5FE1F13647428082E93E33511 /* Pods-MILIKET */ = {
@@ -159,38 +186,24 @@
 			path = "Target Support Files/Pods-MILIKET";
 			sourceTree = "<group>";
 		};
-		6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */ = {
+		610BD4CE829922F3BB1438B2FB34544B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */,
+				9B9B134ADA41DDF2B567126006748FEB /* DGElasticPullToRefresh.framework */,
+				18302076959B2813AA43B343E41DEC0E /* Pods_MILIKET.framework */,
+				38F4DAE12D928BD2889B90B3F8151F43 /* Pods_MILIKETTests.framework */,
+				9516EE3A45981939132A4B906682012C /* Pods_MILIKETUITests.framework */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6BC99F081C91F80679CFA5DDC6213D57 /* Maps */ = {
-			isa = PBXGroup;
-			children = (
-				8B88C91FA4176430C15D1E9BF028871B /* Frameworks */,
-				3AEC177709F5E2CA8647760385A95C03 /* Resources */,
-			);
-			name = Maps;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */,
-				3B49FF2723CE7D3D8626CA68BCED1785 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				C8D6F122C75BEA456D21917B8008899D /* Pods */,
+				610BD4CE829922F3BB1438B2FB34544B /* Products */,
 				2B7FE4790CF8645329C68766B569D79B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -213,13 +226,20 @@
 			path = "Target Support Files/Pods-MILIKETTests";
 			sourceTree = "<group>";
 		};
-		8B88C91FA4176430C15D1E9BF028871B /* Frameworks */ = {
+		8CABF78F17C76730ED4AF4B5B6F36F9D /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				9BC0EEC24B7854CA83D1BB6A57028B31 /* GoogleMaps.framework */,
-				BEC993795583B87B1EC31F69AA6F331A /* GoogleMapsCore.framework */,
+				2021D4E25EC1D75A511731ACFFA36604 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9B6C26A50C2177EDE57D4C24E932E03A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB19614559A61B23916FBC0E3D47D3F7 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A0CEC6E7A82D8DC06BACEA237E38AAD2 /* Pods-MILIKETUITests */ = {
@@ -240,12 +260,63 @@
 			path = "Target Support Files/Pods-MILIKETUITests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A498C801DB95234BA3219B15AFA3081D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				C52C45FE242F9E621FD9178D3D9985BE /* GoogleMaps.framework */,
+				72C9EF6A7ECD3C80DF12AD8FB66FD750 /* GoogleMapsCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A57C7FC8D49A798DB9E906451ECCB402 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C65D23F065404D4474E09631A97A42 /* DGElasticPullToRefresh.modulemap */,
+				45900090F9B93055CDCF653F6EB92351 /* DGElasticPullToRefresh.xcconfig */,
+				999C239D60D768793B2F20D4AD18FDFF /* DGElasticPullToRefresh-dummy.m */,
+				E693BDFE88449ADF1841A967EA2BE4ED /* DGElasticPullToRefresh-prefix.pch */,
+				EEB359A1ECEBC8250FEAC85405818373 /* DGElasticPullToRefresh-umbrella.h */,
+				61539B022B5EB94FDA0FF6DA70B2EDB6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DGElasticPullToRefresh";
+			sourceTree = "<group>";
+		};
+		AD3AFD93FD29198A5DD133FD39AEA8A8 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				8CABF78F17C76730ED4AF4B5B6F36F9D /* Base */,
+				EEC5200C52F97C1391E0ACA167D4C0B0 /* Maps */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		C8D6F122C75BEA456D21917B8008899D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30DAC80E6F5272E0BBE72DF817FD1422 /* DGElasticPullToRefresh */,
+				AD3AFD93FD29198A5DD133FD39AEA8A8 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EEC5200C52F97C1391E0ACA167D4C0B0 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				A498C801DB95234BA3219B15AFA3081D /* Frameworks */,
+				9B6C26A50C2177EDE57D4C24E932E03A /* Resources */,
+			);
+			name = Maps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +330,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47329E7F3FCA1BE5ADC2FCDA446686BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464CC2C5893FCA388C44AC2ADDC8490F /* Pods-MILIKET-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A34F2B0E93B17ACBEC89A50FB8343293 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,32 +346,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D106E2C2F98FE7B1171071A86DC1F074 /* Headers */ = {
+		F60BC667495022BB71DE0C146D3C99EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34CE09D5E6DC6AF6C21C82AA3C64C6DF /* Pods-MILIKET-umbrella.h in Headers */,
+				20C5E87C1DF07DEA65CD74B8D07D6D1C /* DGElasticPullToRefresh-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1234D65C10E8134E15204C900EC14CE8 /* Pods-MILIKET */ = {
+		115824B7CB2E76E5ACB836A251E79404 /* DGElasticPullToRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7CE85110C83833A0AFF0BA1C23C9AC3 /* Build configuration list for PBXNativeTarget "Pods-MILIKET" */;
+			buildConfigurationList = 74DF8A9CBE6EAEB8C19105D047645443 /* Build configuration list for PBXNativeTarget "DGElasticPullToRefresh" */;
 			buildPhases = (
-				260D98A0C7F635975ED26F282391F257 /* Sources */,
-				43CE9FE43E949DF3A11A993F2BB7E135 /* Frameworks */,
-				D106E2C2F98FE7B1171071A86DC1F074 /* Headers */,
+				3943D764C0D525CFAF94F943648E17BE /* Sources */,
+				9E138A11AB568FDD962F892987F6F048 /* Frameworks */,
+				F60BC667495022BB71DE0C146D3C99EA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-MILIKET";
-			productName = "Pods-MILIKET";
-			productReference = 0225388347389797683A1F4A74ED789A /* Pods_MILIKET.framework */;
+			name = DGElasticPullToRefresh;
+			productName = DGElasticPullToRefresh;
+			productReference = 9B9B134ADA41DDF2B567126006748FEB /* DGElasticPullToRefresh.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3EB3DD526945A0F66D5F142BD0F33B8F /* Pods-MILIKETTests */ = {
@@ -309,7 +388,25 @@
 			);
 			name = "Pods-MILIKETTests";
 			productName = "Pods-MILIKETTests";
-			productReference = 04E2054D8344CFBB3A78253D9F201FF2 /* Pods_MILIKETTests.framework */;
+			productReference = 38F4DAE12D928BD2889B90B3F8151F43 /* Pods_MILIKETTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5435ABC9FB909DEF43F70A1BDF68F17 /* Pods-MILIKET */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DE917567D5037FDEB57CFF7C7733B4 /* Build configuration list for PBXNativeTarget "Pods-MILIKET" */;
+			buildPhases = (
+				40FB2C488A97A687D6B7B511F24E22E7 /* Sources */,
+				994C1E6EBCF1B1ADD134A94B45135C04 /* Frameworks */,
+				47329E7F3FCA1BE5ADC2FCDA446686BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3585E6D4D9364F4FE012F2A58F92C586 /* PBXTargetDependency */,
+			);
+			name = "Pods-MILIKET";
+			productName = "Pods-MILIKET";
+			productReference = 18302076959B2813AA43B343E41DEC0E /* Pods_MILIKET.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AA43250389175405A1665315540EB871 /* Pods-MILIKETUITests */ = {
@@ -326,7 +423,7 @@
 			);
 			name = "Pods-MILIKETUITests";
 			productName = "Pods-MILIKETUITests";
-			productReference = 4CAAE47AB97055A9FBB1B0273F37A423 /* Pods_MILIKETUITests.framework */;
+			productReference = 9516EE3A45981939132A4B906682012C /* Pods_MILIKETUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -346,11 +443,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3B49FF2723CE7D3D8626CA68BCED1785 /* Products */;
+			productRefGroup = 610BD4CE829922F3BB1438B2FB34544B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1234D65C10E8134E15204C900EC14CE8 /* Pods-MILIKET */,
+				115824B7CB2E76E5ACB836A251E79404 /* DGElasticPullToRefresh */,
+				A5435ABC9FB909DEF43F70A1BDF68F17 /* Pods-MILIKET */,
 				3EB3DD526945A0F66D5F142BD0F33B8F /* Pods-MILIKETTests */,
 				AA43250389175405A1665315540EB871 /* Pods-MILIKETUITests */,
 			);
@@ -366,11 +464,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		260D98A0C7F635975ED26F282391F257 /* Sources */ = {
+		3943D764C0D525CFAF94F943648E17BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B83D1941EA7A96AFE2B045A8D610376 /* Pods-MILIKET-dummy.m in Sources */,
+				11BA64BC0B2FE8DDB41883B7241A8C49 /* DGElasticPullToRefresh-dummy.m in Sources */,
+				7A88BF95853A69E550E9F63A060BED12 /* DGElasticPullToRefreshConstants.swift in Sources */,
+				6B058FB2BD6B6B55995F631EE4B61D8E /* DGElasticPullToRefreshExtensions.swift in Sources */,
+				B2F9711D635766F4754D415B41FFC818 /* DGElasticPullToRefreshLoadingView.swift in Sources */,
+				ECDF2C04EED904A4AFC64DED8EA45544 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
+				501198AA5B6723D71C0194BAD075BF02 /* DGElasticPullToRefreshView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FB2C488A97A687D6B7B511F24E22E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D14013787B7AB3201CB1D42FEB0160 /* Pods-MILIKET-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,42 +495,16 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		00382A49689A0A0AA7CFE96D9D1AADF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABDF77B01D8EB3F3B0B684E5A6AAB769 /* Pods-MILIKET.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MILIKET/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MILIKET/Pods-MILIKET.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MILIKET;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+/* Begin PBXTargetDependency section */
+		3585E6D4D9364F4FE012F2A58F92C586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DGElasticPullToRefresh;
+			target = 115824B7CB2E76E5ACB836A251E79404 /* DGElasticPullToRefresh */;
+			targetProxy = 748AC7D3CCED5AB5B59C40532D83946E /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
 		0649B6799735D6CF6E24997F07B8569E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E572D43D7B136068A6FDC030046171EF /* Pods-MILIKETUITests.release.xcconfig */;
@@ -454,6 +539,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		2654D9102D36A966EF1C29ED92F02F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96141F57DFFF01D4222E0FC16D94E10 /* Pods-MILIKET.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MILIKET/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MILIKET/Pods-MILIKET.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MILIKET;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		268840894FCB6BA83058C1DB7F79E93C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -525,6 +646,39 @@
 			};
 			name = Debug;
 		};
+		4B4A58C02F320706D9A1ED5926326ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45900090F9B93055CDCF653F6EB92351 /* DGElasticPullToRefresh.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DGElasticPullToRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DGElasticPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -569,15 +723,15 @@
 			};
 			name = Debug;
 		};
-		7B4785CFA74240E0FF8F7599197F3A9D /* Debug */ = {
+		7157CA4CD561CDBC2C2A75784C4BC0E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C96141F57DFFF01D4222E0FC16D94E10 /* Pods-MILIKET.debug.xcconfig */;
+			baseConfigurationReference = ABDF77B01D8EB3F3B0B684E5A6AAB769 /* Pods-MILIKET.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -590,7 +744,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MILIKET/Pods-MILIKET.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -602,7 +756,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		99AE8A6D84241027ACF7CB7B9915F52C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -679,6 +833,38 @@
 			};
 			name = Release;
 		};
+		BF5056556963EC1EB05BE130B5AD2C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45900090F9B93055CDCF653F6EB92351 /* DGElasticPullToRefresh.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DGElasticPullToRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DGElasticPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -687,6 +873,24 @@
 			buildConfigurations = (
 				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
 				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DE917567D5037FDEB57CFF7C7733B4 /* Build configuration list for PBXNativeTarget "Pods-MILIKET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2654D9102D36A966EF1C29ED92F02F2D /* Debug */,
+				7157CA4CD561CDBC2C2A75784C4BC0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DF8A9CBE6EAEB8C19105D047645443 /* Build configuration list for PBXNativeTarget "DGElasticPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4A58C02F320706D9A1ED5926326ABA /* Debug */,
+				BF5056556963EC1EB05BE130B5AD2C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -705,15 +909,6 @@
 			buildConfigurations = (
 				363F27DF00C7ADBF2218E15719C2FE28 /* Debug */,
 				0649B6799735D6CF6E24997F07B8569E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F7CE85110C83833A0AFF0BA1C23C9AC3 /* Build configuration list for PBXNativeTarget "Pods-MILIKET" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B4785CFA74240E0FF8F7599197F3A9D /* Debug */,
-				00382A49689A0A0AA7CFE96D9D1AADF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

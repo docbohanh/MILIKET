@@ -1,0 +1,6 @@
+framework module MXScrollView {
+  umbrella header "MXScrollView.h"
+
+  export *
+  module * { export * }
+}

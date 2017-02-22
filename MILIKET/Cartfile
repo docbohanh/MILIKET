@@ -1,2 +1,8 @@
 #github "dzenbot/DZNEmptyDataSet"
-github "kitasuke/PagingMenuController"
+#github "kitasuke/PagingMenuController"
+#github "RobotsAndPencils/RPSlidingMenu"
+#github "maxep/MXParallaxHeader"
+#github "cwxatlm/MXScrollView"
+#github "twicketapp/TwicketSegmentedControl"
+#github "xmartlabs/XLActionController" ~> 3.0
+github "gontovnik/DGElasticPullToRefresh"
