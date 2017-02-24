@@ -5,4 +5,5 @@
 #github "cwxatlm/MXScrollView"
 #github "twicketapp/TwicketSegmentedControl"
 #github "xmartlabs/XLActionController" ~> 3.0
-github "gontovnik/DGElasticPullToRefresh"
+#github "gontovnik/DGElasticPullToRefresh"
+github "Alamofire/Alamofire" ~> 4.3
